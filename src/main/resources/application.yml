@@ -46,7 +46,8 @@ spring:
 
 # ==================== 后端服务器 ====================
 server:
-  port: 8123
+  port: ${PORT:8123}
+  address: 0.0.0.0
   servlet:
     context-path: /api
 
@@ -82,4 +83,6 @@ search-api:
   api-key: ${SEARCH_API_KEY}
 
 
-##前端启动代码：npm.cmd run dev
+##前端启动代码（两个步骤，在idea的终端去运行即可！）
+#  1、cd D:\code-agent\yu-ai-agent1\yu-ai-agent1-frontend
+#  2、npm.cmd run dev
