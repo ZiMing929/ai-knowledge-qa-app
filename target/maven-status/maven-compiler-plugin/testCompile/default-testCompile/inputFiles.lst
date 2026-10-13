@@ -1,0 +1,16 @@
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\agent\YuManusTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\app\DatabaseConnection.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\app\DataSourceConnectionTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\app\LoveAppTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\demo\rag\MultiQueryExpanderDemoTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\rag\LoveAppDocumentLoaderTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\rag\LoveAppVectorStoreConfigTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\rag\MyTokenTextSplitterTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\rag\PgVectorVectorStoreConfigTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\tools\FileOperationToolTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\tools\PDFGenerationToolTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\tools\ResourceDownloadToolTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\tools\TerminalOperationToolTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\tools\WebScrapingToolTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\tools\WebSearchToolTest.java
+D:\code-agent\yu-ai-agent1\src\test\java\com\yupi\yuaiagent\YuAiAgentApplicationTests.java

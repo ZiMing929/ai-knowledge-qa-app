@@ -1,0 +1,88 @@
+# ==================== AI 知识问答应用：安全与构建产物 ====================
+# 本地 Spring 配置可能包含百炼、数据库、搜索服务等密钥，禁止提交。
+application-local.yml
+application-*.local.yml
+**/application-local.yml
+**/application-*.local.yml
+config/*.yml
+config/*.yaml
+config/*.json
+!config/*.example.yml
+!config/*.example.yaml
+!config/*.example.json
+
+# 前端环境变量只提交示例文件。
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+
+# 私钥、证书和常见云凭据。
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+credentials.json
+secrets.*
+
+# Maven / Java 构建与运行产物。
+target/
+*.class
+*.jar
+*.war
+*.log
+hs_err_pid*
+replay_pid*
+
+# AI 会话、工具下载及临时生成文件。
+chat-memory/
+tmp/
+logs/
+*.kryo
+
+# Vue / Vite 构建产物和缓存。
+**/node_modules/
+**/dist/
+**/.vite/
+**/.vercel/
+*.tsbuildinfo
+
+# 操作系统临时文件。
+.DS_Store
+Thumbs.db
+desktop.ini
+
+HELP.md
+.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/

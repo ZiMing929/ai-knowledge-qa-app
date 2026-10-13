@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="yu_ai_agent@pgm-uf6ytl7bq2o22557qo.rwlb.rds.aliyuncs.com" uuid="9661cc6c-a5a0-45b3-b492-cd0abc60fa5c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://pgm-uf6ytl7bq2o22557qo.rwlb.rds.aliyuncs.com:5432/yu_ai_agent</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+#spring:
+#  application:
+#    name=yu-ai-agent1     # 设置应用名称，我的项目是yu-ai-agent
+#
+#  ai:
+#    dashscope:    # 引入的阿里云的灵积大模型
+#      api-key: "xxxxxxxxx"  # api 的 key
+#      chat:
+#        options:
+#          model: qwen-plus    # 定义聊天的模型名称是千问的plus版本！
+#
+#
+#  # 注意这个api-key的写法问题，不能写错了，你写成环境变量的形式是肯定不行的。
+
+
+
+
+#这里是新修改的部分：
+#  spring:
+#    ai:
+#      dashscope:
+#        api-key: "sk-ws-H.PIRLDPP.Vkyi.MEUCIQCVT7E0p_dGWq08Z-85msy44mAlMKuIX39z_AskBNd9OQIgEJkXgxACTMq17eGgIsgyfZZS92czFsLRdJHkz3W2y9g"
+#        chat:
+#          options:
+#            model: qwen-plus
+#
+#    datasource:
+#      url: jdbc:postgresql://pgm-uf6i715l26doy56gpo.rwlb.rds.aliyuncs.com:5432/yu_ai_agent
+#      username: my_user
+#      password: "Xn123456"

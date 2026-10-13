@@ -1,0 +1,21 @@
+{
+  "name": "yu-ai-nexus",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader runner",
+    "build": "vite build --configLoader runner",
+    "preview": "vite preview --configLoader runner"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "markdown-it": "^14.3.2",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.9"
+  }
+}

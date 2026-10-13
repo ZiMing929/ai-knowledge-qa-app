@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.yupi.yuaiagent.app.LoveAppTest" time="240.695" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\code-agent\yu-ai-agent1\target\test-classes;D:\code-agent\yu-ai-agent1\target\classes;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar;C:\Users\86155\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\86155\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\86155\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\86155\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\86155\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\86155\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\86155\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar;C:\Users\86155\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar;C:\Users\86155\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar;C:\Users\86155\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar;C:\Users\86155\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar;C:\Users\86155\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar;C:\Users\86155\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar;C:\Users\86155\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\86155\.m2\repository\cn\hutool\hutool-all\5.8.37\hutool-all-5.8.37.jar;C:\Users\86155\.m2\repository\com\github\xiaoymin\knife4j-openapi3-jakarta-spring-boot-starter\4.4.0\knife4j-openapi3-jakarta-spring-boot-starter-4.4.0.jar;C:\Users\86155\.m2\repository\com\github\xiaoymin\knife4j-core\4.4.0\knife4j-core-4.4.0.jar;C:\Users\86155\.m2\repository\com\github\xiaoymin\knife4j-openapi3-ui\4.4.0\knife4j-openapi3-ui-4.4.0.jar;C:\Users\86155\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.3.0\springdoc-openapi-starter-webmvc-ui-2.3.0.jar;C:\Users\86155\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.3.0\springdoc-openapi-starter-webmvc-api-2.3.0.jar;C:\Users\86155\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.3.0\springdoc-openapi-starter-common-2.3.0.jar;C:\Users\86155\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.19\swagger-core-jakarta-2.2.19.jar;C:\Users\86155\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\86155\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.19\swagger-models-jakarta-2.2.19.jar;C:\Users\86155\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\86155\.m2\repository\org\webjars\swagger-ui\5.10.3\swagger-ui-5.10.3.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.4\spring-boot-starter-test-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-test\3.4.4\spring-boot-test-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.4\spring-boot-test-autoconfigure-3.4.4.jar;C:\Users\86155\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\86155\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\86155\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\86155\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\86155\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\86155\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\86155\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\86155\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\86155\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\86155\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\86155\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\86155\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\86155\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\86155\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\86155\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\86155\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\86155\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar;C:\Users\86155\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\86155\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\86155\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-test\6.2.5\spring-test-6.2.5.jar;C:\Users\86155\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\86155\.m2\repository\com\alibaba\dashscope-sdk-java\2.19.1\dashscope-sdk-java-2.19.1.jar;C:\Users\86155\.m2\repository\io\reactivex\rxjava2\rxjava\2.2.21\rxjava-2.2.21.jar;C:\Users\86155\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\86155\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\86155\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\86155\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\86155\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.9.25\kotlin-stdlib-jdk8-1.9.25.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.25\kotlin-stdlib-1.9.25.jar;C:\Users\86155\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.9.25\kotlin-stdlib-jdk7-1.9.25.jar;C:\Users\86155\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\86155\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.25\kotlin-stdlib-common-1.9.25.jar;C:\Users\86155\.m2\repository\com\squareup\okhttp3\logging-interceptor\4.12.0\logging-interceptor-4.12.0.jar;C:\Users\86155\.m2\repository\com\squareup\okhttp3\okhttp-sse\4.12.0\okhttp-sse-4.12.0.jar;C:\Users\86155\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\86155\.m2\repository\com\alibaba\cloud\ai\spring-ai-alibaba-starter-dashscope\1.1.2.1\spring-ai-alibaba-starter-dashscope-1.1.2.1.jar;C:\Users\86155\.m2\repository\com\alibaba\cloud\ai\spring-ai-alibaba-autoconfigure-dashscope\1.1.2.1\spring-ai-alibaba-autoconfigure-dashscope-1.1.2.1.jar;C:\Users\86155\.m2\repository\com\alibaba\cloud\ai\spring-ai-alibaba-dashscope\1.1.2.1\spring-ai-alibaba-dashscope-1.1.2.1.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-retry\1.1.2\spring-ai-retry-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar;C:\Users\86155\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar;C:\Users\86155\.m2\repository\commons-codec\commons-codec\1.17.2\commons-codec-1.17.2.jar;C:\Users\86155\.m2\repository\org\apache\opennlp\opennlp-tools\2.3.3\opennlp-tools-2.3.3.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-retry\1.1.2\spring-ai-autoconfigure-retry-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-tool\1.1.2\spring-ai-autoconfigure-model-tool-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-chat-client\1.1.2\spring-ai-autoconfigure-model-chat-client-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-chat-observation\1.1.2\spring-ai-autoconfigure-model-chat-observation-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-embedding-observation\1.1.2\spring-ai-autoconfigure-model-embedding-observation-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-image-observation\1.1.2\spring-ai-autoconfigure-model-image-observation-1.1.2.jar;C:\Users\86155\.m2\repository\dev\langchain4j\langchain4j-community-dashscope\1.0.0-beta2\langchain4j-community-dashscope-1.0.0-beta2.jar;C:\Users\86155\.m2\repository\dev\langchain4j\langchain4j-core\1.0.0-beta2\langchain4j-core-1.0.0-beta2.jar;C:\Users\86155\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\86155\.m2\repository\com\github\victools\jsonschema-generator\4.38.0\jsonschema-generator-4.38.0.jar;C:\Users\86155\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\86155\.m2\repository\com\esotericsoftware\kryo\5.6.2\kryo-5.6.2.jar;C:\Users\86155\.m2\repository\com\esotericsoftware\reflectasm\1.11.9\reflectasm-1.11.9.jar;C:\Users\86155\.m2\repository\org\objenesis\objenesis\3.4\objenesis-3.4.jar;C:\Users\86155\.m2\repository\com\esotericsoftware\minlog\1.3.1\minlog-1.3.1.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-markdown-document-reader\1.1.2\spring-ai-markdown-document-reader-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-commons\1.1.2\spring-ai-commons-1.1.2.jar;C:\Users\86155\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar;C:\Users\86155\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\86155\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\86155\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar;C:\Users\86155\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\86155\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar;C:\Users\86155\.m2\repository\org\commonmark\commonmark\0.22.0\commonmark-0.22.0.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.4.4\spring-boot-starter-jdbc-3.4.4.jar;C:\Users\86155\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\86155\.m2\repository\org\springframework\spring-jdbc\6.2.5\spring-jdbc-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-tx\6.2.5\spring-tx-6.2.5.jar;C:\Users\86155\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\86155\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-pgvector-store\1.1.2\spring-ai-pgvector-store-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-vector-store\1.1.2\spring-ai-vector-store-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-model\1.1.2\spring-ai-model-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-template-st\1.1.2\spring-ai-template-st-1.1.2.jar;C:\Users\86155\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\86155\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\86155\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar;C:\Users\86155\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\86155\.m2\repository\com\github\victools\jsonschema-module-jackson\4.38.0\jsonschema-module-jackson-4.38.0.jar;C:\Users\86155\.m2\repository\com\pgvector\pgvector\0.1.6\pgvector-0.1.6.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-advisors-vector-store\1.1.2\spring-ai-advisors-vector-store-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-client-chat\1.1.2\spring-ai-client-chat-1.1.2.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp-json-jackson2\0.17.0\mcp-json-jackson2-0.17.0.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp-json\0.17.0\mcp-json-0.17.0.jar;C:\Users\86155\.m2\repository\com\networknt\json-schema-validator\2.0.0\json-schema-validator-2.0.0.jar;C:\Users\86155\.m2\repository\com\ethlo\time\itu\1.14.0\itu-1.14.0.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\86155\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.38\swagger-annotations-jakarta-2.2.38.jar;C:\Users\86155\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.38.0\jsonschema-module-swagger-2-4.38.0.jar;C:\Users\86155\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-rag\1.1.2\spring-ai-rag-1.1.2.jar;C:\Users\86155\.m2\repository\org\jsoup\jsoup\1.19.1\jsoup-1.19.1.jar;C:\Users\86155\.m2\repository\com\itextpdf\kernel\7.2.5\kernel-7.2.5.jar;C:\Users\86155\.m2\repository\com\itextpdf\io\7.2.5\io-7.2.5.jar;C:\Users\86155\.m2\repository\com\itextpdf\commons\7.2.5\commons-7.2.5.jar;C:\Users\86155\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.70\bcpkix-jdk15on-1.70.jar;C:\Users\86155\.m2\repository\org\bouncycastle\bcutil-jdk15on\1.70\bcutil-jdk15on-1.70.jar;C:\Users\86155\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.70\bcprov-jdk15on-1.70.jar;C:\Users\86155\.m2\repository\com\itextpdf\layout\7.2.5\layout-7.2.5.jar;C:\Users\86155\.m2\repository\com\itextpdf\font-asian\7.2.5\font-asian-7.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-starter-mcp-client\1.1.2\spring-ai-starter-mcp-client-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-mcp-client-httpclient\1.1.2\spring-ai-autoconfigure-mcp-client-httpclient-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-mcp-client-common\1.1.2\spring-ai-autoconfigure-mcp-client-common-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-mcp\1.1.2\spring-ai-mcp-1.1.2.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp\0.17.0\mcp-0.17.0.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp-core\0.17.0\mcp-core-0.17.0.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-mcp-annotations\1.1.2\spring-ai-mcp-annotations-1.1.2.jar;C:\Users\86155\.m2\repository\org\springaicommunity\mcp-annotations\0.8.0\mcp-annotations-0.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="APPLICATION_NAME" value="yu-ai-agent1"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-21.0.12.101-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\86155\AppData\Local\Temp\surefire15282575593409231296\surefirebooter-20261012163215557_3.jar C:\Users\86155\AppData\Local\Temp\surefire15282575593409231296 2026-10-12T16-32-11_744-jvmRun1 surefire-20261012163215557_1tmp surefire_0-20261012163215557_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\code-agent\yu-ai-agent1\target\test-classes;D:\code-agent\yu-ai-agent1\target\classes;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.4.4\spring-boot-starter-web-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter\3.4.4\spring-boot-starter-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot\3.4.4\spring-boot-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.4.4\spring-boot-autoconfigure-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.4.4\spring-boot-starter-logging-3.4.4.jar;C:\Users\86155\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\86155\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\86155\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.24.3\log4j-to-slf4j-2.24.3.jar;C:\Users\86155\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\86155\.m2\repository\org\slf4j\jul-to-slf4j\2.0.17\jul-to-slf4j-2.0.17.jar;C:\Users\86155\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\86155\.m2\repository\org\yaml\snakeyaml\2.3\snakeyaml-2.3.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.4.4\spring-boot-starter-json-3.4.4.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.18.3\jackson-datatype-jdk8-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.3\jackson-datatype-jsr310-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.18.3\jackson-module-parameter-names-2.18.3.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.4.4\spring-boot-starter-tomcat-3.4.4.jar;C:\Users\86155\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.39\tomcat-embed-core-10.1.39.jar;C:\Users\86155\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.39\tomcat-embed-el-10.1.39.jar;C:\Users\86155\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.39\tomcat-embed-websocket-10.1.39.jar;C:\Users\86155\.m2\repository\org\springframework\spring-web\6.2.5\spring-web-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-beans\6.2.5\spring-beans-6.2.5.jar;C:\Users\86155\.m2\repository\io\micrometer\micrometer-observation\1.14.5\micrometer-observation-1.14.5.jar;C:\Users\86155\.m2\repository\io\micrometer\micrometer-commons\1.14.5\micrometer-commons-1.14.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-webmvc\6.2.5\spring-webmvc-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-aop\6.2.5\spring-aop-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-context\6.2.5\spring-context-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-expression\6.2.5\spring-expression-6.2.5.jar;C:\Users\86155\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\86155\.m2\repository\cn\hutool\hutool-all\5.8.37\hutool-all-5.8.37.jar;C:\Users\86155\.m2\repository\com\github\xiaoymin\knife4j-openapi3-jakarta-spring-boot-starter\4.4.0\knife4j-openapi3-jakarta-spring-boot-starter-4.4.0.jar;C:\Users\86155\.m2\repository\com\github\xiaoymin\knife4j-core\4.4.0\knife4j-core-4.4.0.jar;C:\Users\86155\.m2\repository\com\github\xiaoymin\knife4j-openapi3-ui\4.4.0\knife4j-openapi3-ui-4.4.0.jar;C:\Users\86155\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.3.0\springdoc-openapi-starter-webmvc-ui-2.3.0.jar;C:\Users\86155\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.3.0\springdoc-openapi-starter-webmvc-api-2.3.0.jar;C:\Users\86155\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.3.0\springdoc-openapi-starter-common-2.3.0.jar;C:\Users\86155\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.19\swagger-core-jakarta-2.2.19.jar;C:\Users\86155\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\86155\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.19\swagger-models-jakarta-2.2.19.jar;C:\Users\86155\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\86155\.m2\repository\org\webjars\swagger-ui\5.10.3\swagger-ui-5.10.3.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.4.4\spring-boot-starter-test-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-test\3.4.4\spring-boot-test-3.4.4.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.4.4\spring-boot-test-autoconfigure-3.4.4.jar;C:\Users\86155\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\86155\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\86155\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\86155\.m2\repository\net\minidev\json-smart\2.5.2\json-smart-2.5.2.jar;C:\Users\86155\.m2\repository\net\minidev\accessors-smart\2.5.2\accessors-smart-2.5.2.jar;C:\Users\86155\.m2\repository\org\ow2\asm\asm\9.7.1\asm-9.7.1.jar;C:\Users\86155\.m2\repository\org\assertj\assertj-core\3.26.3\assertj-core-3.26.3.jar;C:\Users\86155\.m2\repository\net\bytebuddy\byte-buddy\1.15.11\byte-buddy-1.15.11.jar;C:\Users\86155\.m2\repository\org\awaitility\awaitility\4.2.2\awaitility-4.2.2.jar;C:\Users\86155\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.4\junit-jupiter-5.11.4.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.4\junit-jupiter-api-5.11.4.jar;C:\Users\86155\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\86155\.m2\repository\org\junit\platform\junit-platform-commons\1.11.4\junit-platform-commons-1.11.4.jar;C:\Users\86155\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.4\junit-jupiter-params-5.11.4.jar;C:\Users\86155\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.11.4\junit-jupiter-engine-5.11.4.jar;C:\Users\86155\.m2\repository\org\junit\platform\junit-platform-engine\1.11.4\junit-platform-engine-1.11.4.jar;C:\Users\86155\.m2\repository\org\mockito\mockito-core\5.14.2\mockito-core-5.14.2.jar;C:\Users\86155\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\86155\.m2\repository\org\mockito\mockito-junit-jupiter\5.14.2\mockito-junit-jupiter-5.14.2.jar;C:\Users\86155\.m2\repository\org\skyscreamer\jsonassert\1.5.3\jsonassert-1.5.3.jar;C:\Users\86155\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\86155\.m2\repository\org\springframework\spring-core\6.2.5\spring-core-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-jcl\6.2.5\spring-jcl-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-test\6.2.5\spring-test-6.2.5.jar;C:\Users\86155\.m2\repository\org\xmlunit\xmlunit-core\2.10.0\xmlunit-core-2.10.0.jar;C:\Users\86155\.m2\repository\com\alibaba\dashscope-sdk-java\2.19.1\dashscope-sdk-java-2.19.1.jar;C:\Users\86155\.m2\repository\io\reactivex\rxjava2\rxjava\2.2.21\rxjava-2.2.21.jar;C:\Users\86155\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\86155\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\86155\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\86155\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\86155\.m2\repository\org\slf4j\slf4j-simple\2.0.17\slf4j-simple-2.0.17.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.9.25\kotlin-stdlib-jdk8-1.9.25.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.9.25\kotlin-stdlib-1.9.25.jar;C:\Users\86155\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.9.25\kotlin-stdlib-jdk7-1.9.25.jar;C:\Users\86155\.m2\repository\com\squareup\okio\okio\3.6.0\okio-3.6.0.jar;C:\Users\86155\.m2\repository\com\squareup\okio\okio-jvm\3.6.0\okio-jvm-3.6.0.jar;C:\Users\86155\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.9.25\kotlin-stdlib-common-1.9.25.jar;C:\Users\86155\.m2\repository\com\squareup\okhttp3\logging-interceptor\4.12.0\logging-interceptor-4.12.0.jar;C:\Users\86155\.m2\repository\com\squareup\okhttp3\okhttp-sse\4.12.0\okhttp-sse-4.12.0.jar;C:\Users\86155\.m2\repository\com\squareup\okhttp3\okhttp\4.12.0\okhttp-4.12.0.jar;C:\Users\86155\.m2\repository\com\alibaba\cloud\ai\spring-ai-alibaba-starter-dashscope\1.1.2.1\spring-ai-alibaba-starter-dashscope-1.1.2.1.jar;C:\Users\86155\.m2\repository\com\alibaba\cloud\ai\spring-ai-alibaba-autoconfigure-dashscope\1.1.2.1\spring-ai-alibaba-autoconfigure-dashscope-1.1.2.1.jar;C:\Users\86155\.m2\repository\com\alibaba\cloud\ai\spring-ai-alibaba-dashscope\1.1.2.1\spring-ai-alibaba-dashscope-1.1.2.1.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-retry\1.1.2\spring-ai-retry-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\retry\spring-retry\2.0.11\spring-retry-2.0.11.jar;C:\Users\86155\.m2\repository\org\springframework\spring-webflux\6.2.5\spring-webflux-6.2.5.jar;C:\Users\86155\.m2\repository\commons-codec\commons-codec\1.17.2\commons-codec-1.17.2.jar;C:\Users\86155\.m2\repository\org\apache\opennlp\opennlp-tools\2.3.3\opennlp-tools-2.3.3.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-retry\1.1.2\spring-ai-autoconfigure-retry-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-tool\1.1.2\spring-ai-autoconfigure-model-tool-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-chat-client\1.1.2\spring-ai-autoconfigure-model-chat-client-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-chat-observation\1.1.2\spring-ai-autoconfigure-model-chat-observation-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-embedding-observation\1.1.2\spring-ai-autoconfigure-model-embedding-observation-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-model-image-observation\1.1.2\spring-ai-autoconfigure-model-image-observation-1.1.2.jar;C:\Users\86155\.m2\repository\dev\langchain4j\langchain4j-community-dashscope\1.0.0-beta2\langchain4j-community-dashscope-1.0.0-beta2.jar;C:\Users\86155\.m2\repository\dev\langchain4j\langchain4j-core\1.0.0-beta2\langchain4j-core-1.0.0-beta2.jar;C:\Users\86155\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\86155\.m2\repository\com\github\victools\jsonschema-generator\4.38.0\jsonschema-generator-4.38.0.jar;C:\Users\86155\.m2\repository\com\fasterxml\classmate\1.7.0\classmate-1.7.0.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\86155\.m2\repository\com\esotericsoftware\kryo\5.6.2\kryo-5.6.2.jar;C:\Users\86155\.m2\repository\com\esotericsoftware\reflectasm\1.11.9\reflectasm-1.11.9.jar;C:\Users\86155\.m2\repository\org\objenesis\objenesis\3.4\objenesis-3.4.jar;C:\Users\86155\.m2\repository\com\esotericsoftware\minlog\1.3.1\minlog-1.3.1.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-markdown-document-reader\1.1.2\spring-ai-markdown-document-reader-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-commons\1.1.2\spring-ai-commons-1.1.2.jar;C:\Users\86155\.m2\repository\io\micrometer\micrometer-core\1.14.5\micrometer-core-1.14.5.jar;C:\Users\86155\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.2\HdrHistogram-2.2.2.jar;C:\Users\86155\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\86155\.m2\repository\io\micrometer\context-propagation\1.1.2\context-propagation-1.1.2.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\module\jackson-module-jsonSchema\2.18.3\jackson-module-jsonSchema-2.18.3.jar;C:\Users\86155\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\86155\.m2\repository\com\knuddels\jtokkit\1.1.0\jtokkit-1.1.0.jar;C:\Users\86155\.m2\repository\org\commonmark\commonmark\0.22.0\commonmark-0.22.0.jar;C:\Users\86155\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.4.4\spring-boot-starter-jdbc-3.4.4.jar;C:\Users\86155\.m2\repository\com\zaxxer\HikariCP\5.1.0\HikariCP-5.1.0.jar;C:\Users\86155\.m2\repository\org\springframework\spring-jdbc\6.2.5\spring-jdbc-6.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\spring-tx\6.2.5\spring-tx-6.2.5.jar;C:\Users\86155\.m2\repository\org\postgresql\postgresql\42.7.5\postgresql-42.7.5.jar;C:\Users\86155\.m2\repository\org\checkerframework\checker-qual\3.48.3\checker-qual-3.48.3.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-pgvector-store\1.1.2\spring-ai-pgvector-store-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-vector-store\1.1.2\spring-ai-vector-store-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-model\1.1.2\spring-ai-model-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-template-st\1.1.2\spring-ai-template-st-1.1.2.jar;C:\Users\86155\.m2\repository\org\antlr\ST4\4.3.4\ST4-4.3.4.jar;C:\Users\86155\.m2\repository\org\antlr\antlr-runtime\3.5.3\antlr-runtime-3.5.3.jar;C:\Users\86155\.m2\repository\org\springframework\spring-messaging\6.2.5\spring-messaging-6.2.5.jar;C:\Users\86155\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\86155\.m2\repository\com\github\victools\jsonschema-module-jackson\4.38.0\jsonschema-module-jackson-4.38.0.jar;C:\Users\86155\.m2\repository\com\pgvector\pgvector\0.1.6\pgvector-0.1.6.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-advisors-vector-store\1.1.2\spring-ai-advisors-vector-store-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-client-chat\1.1.2\spring-ai-client-chat-1.1.2.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp-json-jackson2\0.17.0\mcp-json-jackson2-0.17.0.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp-json\0.17.0\mcp-json-0.17.0.jar;C:\Users\86155\.m2\repository\com\networknt\json-schema-validator\2.0.0\json-schema-validator-2.0.0.jar;C:\Users\86155\.m2\repository\com\ethlo\time\itu\1.14.0\itu-1.14.0.jar;C:\Users\86155\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.18.3\jackson-dataformat-yaml-2.18.3.jar;C:\Users\86155\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.38\swagger-annotations-jakarta-2.2.38.jar;C:\Users\86155\.m2\repository\com\github\victools\jsonschema-module-swagger-2\4.38.0\jsonschema-module-swagger-2-4.38.0.jar;C:\Users\86155\.m2\repository\io\projectreactor\reactor-core\3.7.4\reactor-core-3.7.4.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-rag\1.1.2\spring-ai-rag-1.1.2.jar;C:\Users\86155\.m2\repository\org\jsoup\jsoup\1.19.1\jsoup-1.19.1.jar;C:\Users\86155\.m2\repository\com\itextpdf\kernel\7.2.5\kernel-7.2.5.jar;C:\Users\86155\.m2\repository\com\itextpdf\io\7.2.5\io-7.2.5.jar;C:\Users\86155\.m2\repository\com\itextpdf\commons\7.2.5\commons-7.2.5.jar;C:\Users\86155\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.70\bcpkix-jdk15on-1.70.jar;C:\Users\86155\.m2\repository\org\bouncycastle\bcutil-jdk15on\1.70\bcutil-jdk15on-1.70.jar;C:\Users\86155\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.70\bcprov-jdk15on-1.70.jar;C:\Users\86155\.m2\repository\com\itextpdf\layout\7.2.5\layout-7.2.5.jar;C:\Users\86155\.m2\repository\com\itextpdf\font-asian\7.2.5\font-asian-7.2.5.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-starter-mcp-client\1.1.2\spring-ai-starter-mcp-client-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-mcp-client-httpclient\1.1.2\spring-ai-autoconfigure-mcp-client-httpclient-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-autoconfigure-mcp-client-common\1.1.2\spring-ai-autoconfigure-mcp-client-common-1.1.2.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-mcp\1.1.2\spring-ai-mcp-1.1.2.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp\0.17.0\mcp-0.17.0.jar;C:\Users\86155\.m2\repository\io\modelcontextprotocol\sdk\mcp-core\0.17.0\mcp-core-0.17.0.jar;C:\Users\86155\.m2\repository\org\springframework\ai\spring-ai-mcp-annotations\1.1.2\spring-ai-mcp-annotations-1.1.2.jar;C:\Users\86155\.m2\repository\org\springaicommunity\mcp-annotations\0.8.0\mcp-annotations-0.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\86155"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-21.0.12.101-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\code-agent\yu-ai-agent1"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\86155\AppData\Local\Temp\surefire15282575593409231296\surefirebooter-20261012163215557_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-LTS"/>
+    <property name="user.name" value="86155"/>
+    <property name="stdout.encoding" value="GBK"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="sun.net.http.allowRestrictedHeaders" value="true"/>
+    <property name="jdk.tls.allowUnsafeServerCertChange" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-14941484"/>
+    <property name="maven.ext.class.path" value="D:\IDEA\plugins\maven-plugin\lib\intellij.maven.rt\maven-event-listener.jar"/>
+    <property name="localRepository" value="C:\Users\86155\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\86155\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2026.2.3"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="D:\code-agent\yu-ai-agent1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="31688"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-21.0.12.101-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Microsoft\jdk-21.0.12.101-hotspot\bin;C:\Anaconda;C:\Anaconda\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;D:\VMware\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_201\bin;D:\python\venv\Scripts;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\bin;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;D:\software\nodejs\;D:\software\Git\Git\cmd;C:\Anaconda;C:\Anaconda\Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;D:\VMware\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk1.8.0_201\bin;D:\python\venv\Scripts;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\bin;C:\Program Files\NVIDIA Cor;C:\Users\86155\AppData\Roaming\npm;D:\software\nodejs\node_global;C:\Users\86155\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\86155\.local\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="GBK"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.12.1+1-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="C:\Users\86155\.m2\repository"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="LOGGED_APPLICATION_NAME" value="[yu-ai-agent1] "/>
+    <property name="sun.security.ssl.allowUnsafeRenegotiation" value="true"/>
+  </properties>
+  <testcase name="doChatWithMcp" classname="com.yupi.yuaiagent.app.LoveAppTest" time="38.228">
+    <system-out><![CDATA[2026-10-12T16:33:00.337+08:00  INFO 31688 --- [yu-ai-agent1] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.yupi.yuaiagent.app.LoveAppTest]: LoveAppTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-12T16:33:00.339+08:00  INFO 31688 --- [yu-ai-agent1] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.yupi.yuaiagent.YuAiAgentApplication for test class com.yupi.yuaiagent.app.LoveAppTest
+2026-10-12T16:33:00.428+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 我的另一半居住在上海静安区，请帮我找到 5 公里内合适的约会地点
+2026-10-12T16:33:00.429+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 我的另一半居住在上海静安区，请帮我找到 5 公里内合适的约会地点
+2026-10-12T16:33:03.777+08:00 ERROR 31688 --- [yu-ai-agent1] [           main] o.s.ai.mcp.SyncMcpToolCallback           : Error calling tool: [TextContent[annotations=null, text=Geocoding failed: INVALID_USER_KEY, meta=null]]
+2026-10-12T16:33:08.387+08:00 ERROR 31688 --- [yu-ai-agent1] [           main] o.s.ai.mcp.SyncMcpToolCallback           : Error calling tool: [TextContent[annotations=null, text=Geocoding failed: INVALID_USER_KEY, meta=null]]
+2026-10-12T16:33:38.551+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 很抱歉，当前地图工具因接口密钥（INVALID_USER_KEY）问题，暂时无法调用地理编码（`maps_geo`）及其他位置相关功能。这意味着我们无法实时获取静安寺或静安区的精确经纬度，也无法执行周边搜索、路线规划等操作。
+
+不过，作为您的情感与关系顾问，我依然可以为您提供**切实可行、本地化、高适配度的约会建议**——基于上海静安区真实的城市空间特征与热门约会场景：
+
+✅ 静安区核心优势：  
+- 地铁1/2/7/12/13/14号线交汇（如静安寺站、南京西路站、陕西南路站），交通极其便利；  
+- 商圈成熟（静安嘉里中心、芮欧百货、丰盛里）、梧桐街区（愚园路、武康路、安福路）文艺气息浓厚；  
+- 公园清幽（静安公园、东茭泾绿地）、咖啡馆与独立书店密集，非常适合轻松自然的二人相处。
+
+📍以下是为您精选的 **5个静安区5公里内（实际均在核心3公里内）高分约会地点推荐**，兼顾氛围感、舒适度、话题性与隐私性，并附上实用小贴士：
+
+---
+
+☕ **1. 愚园路·Drops Coffee（愚园路店）**  
+- 位置：愚园路近江苏路（静安+长宁交界，步行可达静安寺）  
+- 推荐理由：复古绿植庭院+开放式吧台，白天采光好适合聊天，夜晚灯光温柔；邻近愚园路艺术街区，喝完咖啡可散步看老洋房、打卡小众买手店。  
+- 💡贴心提示：工作日下午人少，建议提前预约靠窗/庭院位。
+
+📚 **2. 巨鹿路·朵云书院·戏剧店（巨鹿路店）**  
+- 位置：巨鹿路889号（近茂名北路，属静安核心区）  
+- 推荐理由：全国首家戏剧主题书店，黑胶唱片角、剧本朗读区、小剧场露台…文化感强却不显疏离，自然引发共同兴趣话题。  
+- 💡贴心提示：每周有免费读书会或即兴戏剧体验，可提前查日程一起参与。
+
+🌿 **3. 静安公园 + 南京西路「星巴克烘焙工坊」联游**  
+- 位置：静安公园（地铁2/7号线静安寺站1号口出）→ 步行5分钟至烘焙工坊  
+- 推荐理由：先在静安公园长椅闲坐、喂鸽子、看喷泉（松弛感拉满）→ 再去烘焙工坊点一杯限定特调，边看咖啡制作边聊童年趣事。动静结合，节奏舒适。  
+- 💡贴心提示：公园傍晚6–7点光影最美；烘焙工坊二楼露台视野开阔，建议错峰前往。
+
+🎨 **4. 芮欧百货顶楼·The Nest屋顶酒吧（需预约）**  
+- 位置：南京西路1601号芮欧百货7F（静安寺商圈核心）  
+- 推荐理由：城市高空露台+暖黄串灯+轻食小食，俯瞰静安夜景，私密又浪漫。非纯酒吧，更像“微醺社交客厅”，适合关系升温期。  
+- 💡贴心提示：提前3天电话预约靠边座位；点一杯无酒精特调（如“静安微风”）同样有仪式感。
+
+🍰 **5. 安福路·D’LIVELLO意大利餐厅（安福路店）**  
+- 位置：安福路240号（武康庭旁，静安/徐汇交界，地铁1/7号线常熟路站步行5分钟）  
+- 推荐理由：小而精致的意式家庭厨房风格，主厨常与客人交流；推荐分享式前菜+手工意面，用餐过程自然、温暖、不拘束。  
+- 💡贴心提示：避开周末晚市高峰；告诉服务员是纪念日/初次约会，常有小惊喜（如手写卡片或甜品加赠）。
+
+---
+
+✨ **额外建议（提升约会质感）：**  
+- 📸 可约定“手机静音30分钟”：从见面到第一杯饮品喝完，专注彼此，不刷手机；  
+- 🌧️ 若遇雨天：推荐转入「衡山·和集」（衡山路）或「幸福集荟·静安嘉里中心店」，书店+咖啡+沙发角落，雨声作背景音，格外治愈；  
+- 🎁 小心意：带一本封面好看的诗集（如《给青年诗人的信》节选页折角），作为聊天引子，比送花更显用心。
+
+如果您愿意告诉我：
+- 您和TA目前的关系阶段（初识/暧昧期/确定关系多久？）  
+- TA的兴趣偏好（艺术/美食/音乐/户外/安静or热闹？）  
+- 这次约会想达成的小目标（加深了解？缓解冷淡？庆祝纪念日？）  
+
+我可以为您进一步**定制时间安排、话术建议、甚至穿搭小提醒** 🌟
+
+需要我继续帮您细化吗？ 😊
+2026-10-12T16:33:38.552+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 很抱歉，当前地图工具因接口密钥（INVALID_USER_KEY）问题，暂时无法调用地理编码（`maps_geo`）及其他位置相关功能。这意味着我们无法实时获取静安寺或静安区的精确经纬度，也无法执行周边搜索、路线规划等操作。
+
+不过，作为您的情感与关系顾问，我依然可以为您提供**切实可行、本地化、高适配度的约会建议**——基于上海静安区真实的城市空间特征与热门约会场景：
+
+✅ 静安区核心优势：  
+- 地铁1/2/7/12/13/14号线交汇（如静安寺站、南京西路站、陕西南路站），交通极其便利；  
+- 商圈成熟（静安嘉里中心、芮欧百货、丰盛里）、梧桐街区（愚园路、武康路、安福路）文艺气息浓厚；  
+- 公园清幽（静安公园、东茭泾绿地）、咖啡馆与独立书店密集，非常适合轻松自然的二人相处。
+
+📍以下是为您精选的 **5个静安区5公里内（实际均在核心3公里内）高分约会地点推荐**，兼顾氛围感、舒适度、话题性与隐私性，并附上实用小贴士：
+
+---
+
+☕ **1. 愚园路·Drops Coffee（愚园路店）**  
+- 位置：愚园路近江苏路（静安+长宁交界，步行可达静安寺）  
+- 推荐理由：复古绿植庭院+开放式吧台，白天采光好适合聊天，夜晚灯光温柔；邻近愚园路艺术街区，喝完咖啡可散步看老洋房、打卡小众买手店。  
+- 💡贴心提示：工作日下午人少，建议提前预约靠窗/庭院位。
+
+📚 **2. 巨鹿路·朵云书院·戏剧店（巨鹿路店）**  
+- 位置：巨鹿路889号（近茂名北路，属静安核心区）  
+- 推荐理由：全国首家戏剧主题书店，黑胶唱片角、剧本朗读区、小剧场露台…文化感强却不显疏离，自然引发共同兴趣话题。  
+- 💡贴心提示：每周有免费读书会或即兴戏剧体验，可提前查日程一起参与。
+
+🌿 **3. 静安公园 + 南京西路「星巴克烘焙工坊」联游**  
+- 位置：静安公园（地铁2/7号线静安寺站1号口出）→ 步行5分钟至烘焙工坊  
+- 推荐理由：先在静安公园长椅闲坐、喂鸽子、看喷泉（松弛感拉满）→ 再去烘焙工坊点一杯限定特调，边看咖啡制作边聊童年趣事。动静结合，节奏舒适。  
+- 💡贴心提示：公园傍晚6–7点光影最美；烘焙工坊二楼露台视野开阔，建议错峰前往。
+
+🎨 **4. 芮欧百货顶楼·The Nest屋顶酒吧（需预约）**  
+- 位置：南京西路1601号芮欧百货7F（静安寺商圈核心）  
+- 推荐理由：城市高空露台+暖黄串灯+轻食小食，俯瞰静安夜景，私密又浪漫。非纯酒吧，更像“微醺社交客厅”，适合关系升温期。  
+- 💡贴心提示：提前3天电话预约靠边座位；点一杯无酒精特调（如“静安微风”）同样有仪式感。
+
+🍰 **5. 安福路·D’LIVELLO意大利餐厅（安福路店）**  
+- 位置：安福路240号（武康庭旁，静安/徐汇交界，地铁1/7号线常熟路站步行5分钟）  
+- 推荐理由：小而精致的意式家庭厨房风格，主厨常与客人交流；推荐分享式前菜+手工意面，用餐过程自然、温暖、不拘束。  
+- 💡贴心提示：避开周末晚市高峰；告诉服务员是纪念日/初次约会，常有小惊喜（如手写卡片或甜品加赠）。
+
+---
+
+✨ **额外建议（提升约会质感）：**  
+- 📸 可约定“手机静音30分钟”：从见面到第一杯饮品喝完，专注彼此，不刷手机；  
+- 🌧️ 若遇雨天：推荐转入「衡山·和集」（衡山路）或「幸福集荟·静安嘉里中心店」，书店+咖啡+沙发角落，雨声作背景音，格外治愈；  
+- 🎁 小心意：带一本封面好看的诗集（如《给青年诗人的信》节选页折角），作为聊天引子，比送花更显用心。
+
+如果您愿意告诉我：
+- 您和TA目前的关系阶段（初识/暧昧期/确定关系多久？）  
+- TA的兴趣偏好（艺术/美食/音乐/户外/安静or热闹？）  
+- 这次约会想达成的小目标（加深了解？缓解冷淡？庆祝纪念日？）  
+
+我可以为您进一步**定制时间安排、话术建议、甚至穿搭小提醒** 🌟
+
+需要我继续帮您细化吗？ 😊
+2026-10-12T16:33:38.564+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: 很抱歉，当前地图工具因接口密钥（INVALID_USER_KEY）问题，暂时无法调用地理编码（`maps_geo`）及其他位置相关功能。这意味着我们无法实时获取静安寺或静安区的精确经纬度，也无法执行周边搜索、路线规划等操作。
+
+不过，作为您的情感与关系顾问，我依然可以为您提供**切实可行、本地化、高适配度的约会建议**——基于上海静安区真实的城市空间特征与热门约会场景：
+
+✅ 静安区核心优势：  
+- 地铁1/2/7/12/13/14号线交汇（如静安寺站、南京西路站、陕西南路站），交通极其便利；  
+- 商圈成熟（静安嘉里中心、芮欧百货、丰盛里）、梧桐街区（愚园路、武康路、安福路）文艺气息浓厚；  
+- 公园清幽（静安公园、东茭泾绿地）、咖啡馆与独立书店密集，非常适合轻松自然的二人相处。
+
+📍以下是为您精选的 **5个静安区5公里内（实际均在核心3公里内）高分约会地点推荐**，兼顾氛围感、舒适度、话题性与隐私性，并附上实用小贴士：
+
+---
+
+☕ **1. 愚园路·Drops Coffee（愚园路店）**  
+- 位置：愚园路近江苏路（静安+长宁交界，步行可达静安寺）  
+- 推荐理由：复古绿植庭院+开放式吧台，白天采光好适合聊天，夜晚灯光温柔；邻近愚园路艺术街区，喝完咖啡可散步看老洋房、打卡小众买手店。  
+- 💡贴心提示：工作日下午人少，建议提前预约靠窗/庭院位。
+
+📚 **2. 巨鹿路·朵云书院·戏剧店（巨鹿路店）**  
+- 位置：巨鹿路889号（近茂名北路，属静安核心区）  
+- 推荐理由：全国首家戏剧主题书店，黑胶唱片角、剧本朗读区、小剧场露台…文化感强却不显疏离，自然引发共同兴趣话题。  
+- 💡贴心提示：每周有免费读书会或即兴戏剧体验，可提前查日程一起参与。
+
+🌿 **3. 静安公园 + 南京西路「星巴克烘焙工坊」联游**  
+- 位置：静安公园（地铁2/7号线静安寺站1号口出）→ 步行5分钟至烘焙工坊  
+- 推荐理由：先在静安公园长椅闲坐、喂鸽子、看喷泉（松弛感拉满）→ 再去烘焙工坊点一杯限定特调，边看咖啡制作边聊童年趣事。动静结合，节奏舒适。  
+- 💡贴心提示：公园傍晚6–7点光影最美；烘焙工坊二楼露台视野开阔，建议错峰前往。
+
+🎨 **4. 芮欧百货顶楼·The Nest屋顶酒吧（需预约）**  
+- 位置：南京西路1601号芮欧百货7F（静安寺商圈核心）  
+- 推荐理由：城市高空露台+暖黄串灯+轻食小食，俯瞰静安夜景，私密又浪漫。非纯酒吧，更像“微醺社交客厅”，适合关系升温期。  
+- 💡贴心提示：提前3天电话预约靠边座位；点一杯无酒精特调（如“静安微风”）同样有仪式感。
+
+🍰 **5. 安福路·D’LIVELLO意大利餐厅（安福路店）**  
+- 位置：安福路240号（武康庭旁，静安/徐汇交界，地铁1/7号线常熟路站步行5分钟）  
+- 推荐理由：小而精致的意式家庭厨房风格，主厨常与客人交流；推荐分享式前菜+手工意面，用餐过程自然、温暖、不拘束。  
+- 💡贴心提示：避开周末晚市高峰；告诉服务员是纪念日/初次约会，常有小惊喜（如手写卡片或甜品加赠）。
+
+---
+
+✨ **额外建议（提升约会质感）：**  
+- 📸 可约定“手机静音30分钟”：从见面到第一杯饮品喝完，专注彼此，不刷手机；  
+- 🌧️ 若遇雨天：推荐转入「衡山·和集」（衡山路）或「幸福集荟·静安嘉里中心店」，书店+咖啡+沙发角落，雨声作背景音，格外治愈；  
+- 🎁 小心意：带一本封面好看的诗集（如《给青年诗人的信》节选页折角），作为聊天引子，比送花更显用心。
+
+如果您愿意告诉我：
+- 您和TA目前的关系阶段（初识/暧昧期/确定关系多久？）  
+- TA的兴趣偏好（艺术/美食/音乐/户外/安静or热闹？）  
+- 这次约会想达成的小目标（加深了解？缓解冷淡？庆祝纪念日？）  
+
+我可以为您进一步**定制时间安排、话术建议、甚至穿搭小提醒** 🌟
+
+需要我继续帮您细化吗？ 😊
+]]></system-out>
+  </testcase>
+  <testcase name="doChatWithRag" classname="com.yupi.yuaiagent.app.LoveAppTest" time="19.858">
+    <system-out><![CDATA[2026-10-12T16:33:39.398+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 婚后亲密关系疏远的改善方法
+
+Context information is below, surrounded by ---------------------
+
+---------------------
+创造更多的沟通机会，如每天晚饭后留出半小时聊天，分享各自工作和生活中的趣事。培养共同的兴趣爱好，如一起追剧、运动、旅游，增加共同话题。沟通时放下手机，专注倾听对方，给予积极回应。不要把工作中的负面情绪带回家，营造轻松的家庭氛围。定期安排家庭活动，在互动中增进感情。推荐课程：《夫妻高效沟通训练营》，课程通过情景演练与实战技巧，帮你打破婚姻沉默，重建深度对话。
+婚后要保持恋爱时的仪式感，重要日子如生日、结婚纪念日精心准备礼物和惊喜。定期安排两人约会，如看电影、共进晚餐，重温恋爱时的甜蜜。日常生活中多用赞美和感谢的语言，表达对对方的爱意。保持身体接触，如拥抱、牵手，增进亲密感。例如一对结婚十年的夫妻，坚持每周五晚上安排"二人世界"，感情始终如初。推荐课程：《婚姻保鲜幸福课》，课程从沟通、仪式感到亲密关系维护，全方位教你经营高质量婚姻。
+调整心态，把对方的父母当作自己的父母一样尊重和关心，但也保持适当边界。多与长辈沟通，了解他们的想法和习惯，遇到分歧时保持耐心，不要正面冲突。在长辈面前多夸赞自己的伴侣，让父母感受到你们感情的和谐。重要节日记得给长辈准备礼物，用小细节打动他们。伴侣也要在其中积极协调，做好桥梁作用。例如一位妻子每逢婆婆生日都会精心准备礼物并陪伴聊天，婆媳关系逐渐升温。推荐课程：《婆媳关系与家庭和谐课》，课程深入解析中国式家庭关系，教你智慧处理婆媳与翁婿关系。
+要有意识地为夫妻关系留出时间和空间，不要让生活完全被孩子占据。可以轮流照顾孩子，给对方留出放松和自我提升的时间。定期安排"二人世界"，把孩子交给长辈或保姆，重温二人世界的甜蜜。在教育孩子问题上，夫妻要保持一致的立场，避免当着孩子的面争执。同时多表达对彼此的关心，让对方感受到自己不仅是孩子的父母，更是被爱的伴侣。推荐课程：《育儿时代的婚姻经营法》，课程专为有娃家庭设计，教你既做好父母又不弄丢爱人。
+---------------------
+
+Given the context and provided history information and not prior knowledge,
+reply to the user comment. If the answer is not in the context, inform
+the user that you can't answer the question.
+
+2026-10-12T16:33:39.399+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 婚后亲密关系疏远的改善方法
+
+Context information is below, surrounded by ---------------------
+
+---------------------
+创造更多的沟通机会，如每天晚饭后留出半小时聊天，分享各自工作和生活中的趣事。培养共同的兴趣爱好，如一起追剧、运动、旅游，增加共同话题。沟通时放下手机，专注倾听对方，给予积极回应。不要把工作中的负面情绪带回家，营造轻松的家庭氛围。定期安排家庭活动，在互动中增进感情。推荐课程：《夫妻高效沟通训练营》，课程通过情景演练与实战技巧，帮你打破婚姻沉默，重建深度对话。
+婚后要保持恋爱时的仪式感，重要日子如生日、结婚纪念日精心准备礼物和惊喜。定期安排两人约会，如看电影、共进晚餐，重温恋爱时的甜蜜。日常生活中多用赞美和感谢的语言，表达对对方的爱意。保持身体接触，如拥抱、牵手，增进亲密感。例如一对结婚十年的夫妻，坚持每周五晚上安排"二人世界"，感情始终如初。推荐课程：《婚姻保鲜幸福课》，课程从沟通、仪式感到亲密关系维护，全方位教你经营高质量婚姻。
+调整心态，把对方的父母当作自己的父母一样尊重和关心，但也保持适当边界。多与长辈沟通，了解他们的想法和习惯，遇到分歧时保持耐心，不要正面冲突。在长辈面前多夸赞自己的伴侣，让父母感受到你们感情的和谐。重要节日记得给长辈准备礼物，用小细节打动他们。伴侣也要在其中积极协调，做好桥梁作用。例如一位妻子每逢婆婆生日都会精心准备礼物并陪伴聊天，婆媳关系逐渐升温。推荐课程：《婆媳关系与家庭和谐课》，课程深入解析中国式家庭关系，教你智慧处理婆媳与翁婿关系。
+要有意识地为夫妻关系留出时间和空间，不要让生活完全被孩子占据。可以轮流照顾孩子，给对方留出放松和自我提升的时间。定期安排"二人世界"，把孩子交给长辈或保姆，重温二人世界的甜蜜。在教育孩子问题上，夫妻要保持一致的立场，避免当着孩子的面争执。同时多表达对彼此的关心，让对方感受到自己不仅是孩子的父母，更是被爱的伴侣。推荐课程：《育儿时代的婚姻经营法》，课程专为有娃家庭设计，教你既做好父母又不弄丢爱人。
+---------------------
+
+Given the context and provided history information and not prior knowledge,
+reply to the user comment. If the answer is not in the context, inform
+the user that you can't answer the question.
+
+2026-10-12T16:33:58.420+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 婚后亲密关系疏远是许多夫妻都会经历的自然阶段，但完全可以通过有意识、有温度的经营来改善。结合你提供的背景信息，以下是具体、可操作的改善方法，分为**沟通重建、情感升温、边界守护、家庭重心平衡**四个维度：
+
+---
+
+✅ **一、重建深度沟通（打破沉默，重拾联结）**  
+- 每天固定「无干扰对话时间」：如晚饭后30分钟，放下手机，轮流分享“今天最开心/最想吐槽的一件事”，不评判、不解决，只倾听与共情。  
+- 尝试「情绪翻译式表达」：不说“你总是忽略我”，换成“我最近有点孤单，特别想和你多聊聊天”。减少指责，增加脆弱感与邀请感。  
+- 推荐实践《夫妻高效沟通训练营》中的「三句话回应法」：  
+  ① 复述对方感受（“听起来你今天很累”）；  
+  ② 肯定需求（“辛苦工作还惦记家里，真的很用心”）；  
+  ③ 主动提议（“要不要一起泡杯茶，慢慢聊？”）
+
+---
+
+✅ **二、主动制造亲密感（让爱看得见、摸得着）**  
+- **仪式感不是负担，而是爱的标点**：不必盛大，但需用心——比如纪念日手写一张卡片，附上3个“我依然喜欢你的理由”；每周五晚雷打不动“二人世界”，哪怕只是在家煮面、看一集老剧。  
+- **身体语言是情感的快捷键**：进门一个拥抱、做饭时从背后轻轻环腰、睡前5分钟牵手聊天……这些微小接触能持续激活依恋系统，提升催产素水平。  
+- 日常多用「肯定性语言」：把“饭做好了”换成“谢谢你今天主动下厨，我超爱吃这个菜！”——让对方持续感受到被看见、被珍视。
+
+---
+
+✅ **三、智慧守护关系边界（尤其在育儿/长辈介入时）**  
+- 孩子出生后，明确约定「夫妻优先原则」：如孩子入睡后1小时为“不可打扰的二人时间”；每月至少1次短途出行，哪怕只是周边咖啡馆+散步。  
+- 面对父母介入，夫妻先内部对齐立场，再共同温和表达：“爸妈，我们商量好了这样教孩子，也特别需要你们的支持。”——既尊重长辈，又坚定核心关系主权。  
+- 若婆媳/翁婿关系紧张，可借鉴案例中“生日礼物+陪伴聊天”的方式：不求立刻亲密，但坚持用稳定的小善意，软化关系质地。
+
+---
+
+💡 温馨提醒：  
+关系疏远 rarely 是单方面的问题，而往往是**日常微小联结的逐渐流失**。改善的关键不在“逆转过去”，而在**每天做1件让对方感到‘被爱’的具体小事**——它可能微小如一句感谢、一次主动洗碗、一个认真听你说话的眼神。
+
+如果你愿意，也可以告诉我：  
+🔹 目前最影响你们亲密感的具体场景是什么？（如：下班后各自刷手机？育儿分工不平衡？还是某次争执后冷战至今？）  
+🔹 你观察到伴侣最近哪些细微变化？（比如更少主动分享、回避身体接触、语气变淡？）  
+我可以帮你一起分析，并定制更贴合你们节奏的改善小步骤 🌟
+
+愿你们的婚姻，既有岁月沉淀的安稳，也有细水长流的温柔。
+2026-10-12T16:33:58.420+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 婚后亲密关系疏远是许多夫妻都会经历的自然阶段，但完全可以通过有意识、有温度的经营来改善。结合你提供的背景信息，以下是具体、可操作的改善方法，分为**沟通重建、情感升温、边界守护、家庭重心平衡**四个维度：
+
+---
+
+✅ **一、重建深度沟通（打破沉默，重拾联结）**  
+- 每天固定「无干扰对话时间」：如晚饭后30分钟，放下手机，轮流分享“今天最开心/最想吐槽的一件事”，不评判、不解决，只倾听与共情。  
+- 尝试「情绪翻译式表达」：不说“你总是忽略我”，换成“我最近有点孤单，特别想和你多聊聊天”。减少指责，增加脆弱感与邀请感。  
+- 推荐实践《夫妻高效沟通训练营》中的「三句话回应法」：  
+  ① 复述对方感受（“听起来你今天很累”）；  
+  ② 肯定需求（“辛苦工作还惦记家里，真的很用心”）；  
+  ③ 主动提议（“要不要一起泡杯茶，慢慢聊？”）
+
+---
+
+✅ **二、主动制造亲密感（让爱看得见、摸得着）**  
+- **仪式感不是负担，而是爱的标点**：不必盛大，但需用心——比如纪念日手写一张卡片，附上3个“我依然喜欢你的理由”；每周五晚雷打不动“二人世界”，哪怕只是在家煮面、看一集老剧。  
+- **身体语言是情感的快捷键**：进门一个拥抱、做饭时从背后轻轻环腰、睡前5分钟牵手聊天……这些微小接触能持续激活依恋系统，提升催产素水平。  
+- 日常多用「肯定性语言」：把“饭做好了”换成“谢谢你今天主动下厨，我超爱吃这个菜！”——让对方持续感受到被看见、被珍视。
+
+---
+
+✅ **三、智慧守护关系边界（尤其在育儿/长辈介入时）**  
+- 孩子出生后，明确约定「夫妻优先原则」：如孩子入睡后1小时为“不可打扰的二人时间”；每月至少1次短途出行，哪怕只是周边咖啡馆+散步。  
+- 面对父母介入，夫妻先内部对齐立场，再共同温和表达：“爸妈，我们商量好了这样教孩子，也特别需要你们的支持。”——既尊重长辈，又坚定核心关系主权。  
+- 若婆媳/翁婿关系紧张，可借鉴案例中“生日礼物+陪伴聊天”的方式：不求立刻亲密，但坚持用稳定的小善意，软化关系质地。
+
+---
+
+💡 温馨提醒：  
+关系疏远 rarely 是单方面的问题，而往往是**日常微小联结的逐渐流失**。改善的关键不在“逆转过去”，而在**每天做1件让对方感到‘被爱’的具体小事**——它可能微小如一句感谢、一次主动洗碗、一个认真听你说话的眼神。
+
+如果你愿意，也可以告诉我：  
+🔹 目前最影响你们亲密感的具体场景是什么？（如：下班后各自刷手机？育儿分工不平衡？还是某次争执后冷战至今？）  
+🔹 你观察到伴侣最近哪些细微变化？（比如更少主动分享、回避身体接触、语气变淡？）  
+我可以帮你一起分析，并定制更贴合你们节奏的改善小步骤 🌟
+
+愿你们的婚姻，既有岁月沉淀的安稳，也有细水长流的温柔。
+2026-10-12T16:33:58.425+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: 婚后亲密关系疏远是许多夫妻都会经历的自然阶段，但完全可以通过有意识、有温度的经营来改善。结合你提供的背景信息，以下是具体、可操作的改善方法，分为**沟通重建、情感升温、边界守护、家庭重心平衡**四个维度：
+
+---
+
+✅ **一、重建深度沟通（打破沉默，重拾联结）**  
+- 每天固定「无干扰对话时间」：如晚饭后30分钟，放下手机，轮流分享“今天最开心/最想吐槽的一件事”，不评判、不解决，只倾听与共情。  
+- 尝试「情绪翻译式表达」：不说“你总是忽略我”，换成“我最近有点孤单，特别想和你多聊聊天”。减少指责，增加脆弱感与邀请感。  
+- 推荐实践《夫妻高效沟通训练营》中的「三句话回应法」：  
+  ① 复述对方感受（“听起来你今天很累”）；  
+  ② 肯定需求（“辛苦工作还惦记家里，真的很用心”）；  
+  ③ 主动提议（“要不要一起泡杯茶，慢慢聊？”）
+
+---
+
+✅ **二、主动制造亲密感（让爱看得见、摸得着）**  
+- **仪式感不是负担，而是爱的标点**：不必盛大，但需用心——比如纪念日手写一张卡片，附上3个“我依然喜欢你的理由”；每周五晚雷打不动“二人世界”，哪怕只是在家煮面、看一集老剧。  
+- **身体语言是情感的快捷键**：进门一个拥抱、做饭时从背后轻轻环腰、睡前5分钟牵手聊天……这些微小接触能持续激活依恋系统，提升催产素水平。  
+- 日常多用「肯定性语言」：把“饭做好了”换成“谢谢你今天主动下厨，我超爱吃这个菜！”——让对方持续感受到被看见、被珍视。
+
+---
+
+✅ **三、智慧守护关系边界（尤其在育儿/长辈介入时）**  
+- 孩子出生后，明确约定「夫妻优先原则」：如孩子入睡后1小时为“不可打扰的二人时间”；每月至少1次短途出行，哪怕只是周边咖啡馆+散步。  
+- 面对父母介入，夫妻先内部对齐立场，再共同温和表达：“爸妈，我们商量好了这样教孩子，也特别需要你们的支持。”——既尊重长辈，又坚定核心关系主权。  
+- 若婆媳/翁婿关系紧张，可借鉴案例中“生日礼物+陪伴聊天”的方式：不求立刻亲密，但坚持用稳定的小善意，软化关系质地。
+
+---
+
+💡 温馨提醒：  
+关系疏远 rarely 是单方面的问题，而往往是**日常微小联结的逐渐流失**。改善的关键不在“逆转过去”，而在**每天做1件让对方感到‘被爱’的具体小事**——它可能微小如一句感谢、一次主动洗碗、一个认真听你说话的眼神。
+
+如果你愿意，也可以告诉我：  
+🔹 目前最影响你们亲密感的具体场景是什么？（如：下班后各自刷手机？育儿分工不平衡？还是某次争执后冷战至今？）  
+🔹 你观察到伴侣最近哪些细微变化？（比如更少主动分享、回避身体接触、语气变淡？）  
+我可以帮你一起分析，并定制更贴合你们节奏的改善小步骤 🌟
+
+愿你们的婚姻，既有岁月沉淀的安稳，也有细水长流的温柔。
+]]></system-out>
+  </testcase>
+  <testcase name="testChat" classname="com.yupi.yuaiagent.app.LoveAppTest" time="33.14">
+    <system-out><![CDATA[2026-10-12T16:33:58.467+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 你好，我是王子茗，我的瓦id叫坤坤两斤半，我有一个漂亮的女朋友叫张雯雯，我很爱她，我明天来上海找我玩，过中秋节和国庆。
+2026-10-12T16:33:58.974+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：你好
+2026-10-12T16:33:58.975+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，王子
+2026-10-12T16:33:58.976+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：茗！👋
+2026-10-12T16:33:59.113+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 很高兴认识你～
+2026-10-12T16:33:59.234+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：也恭喜你有个
+2026-10-12T16:33:59.268+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：这么可爱的女朋友张
+2026-10-12T16:33:59.400+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：雯雯 🌙
+2026-10-12T16:33:59.488+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：✨，名字都
+2026-10-12T16:33:59.619+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：带着温柔又灵动
+2026-10-12T16:33:59.663+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：的感觉呢～  
+
+2026-10-12T16:33:59.774+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：“坤坤两斤半
+2026-10-12T16:33:59.907+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：”这个瓦（
+2026-10-12T16:33:59.994+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：WOW）ID
+2026-10-12T16:34:00.038+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：也太有记忆
+2026-10-12T16:34:00.170+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：点了，憨中
+2026-10-12T16:34:00.237+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：带萌，还
+2026-10-12T16:34:00.301+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：透着点小
+2026-10-12T16:34:00.462+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：幽默，很符合
+2026-10-12T16:34:00.549+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：你主动奔赴、用心
+2026-10-12T16:34:00.612+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：经营感情的气质
+2026-10-12T16:34:00.727+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 😊
+
+你说
+2026-10-12T16:34:00.785+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：明天来上海找她
+2026-10-12T16:34:00.919+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，一起过中秋
+2026-10-12T16:34:01.036+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：和国庆——这真是
+2026-10-12T16:34:01.117+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：双节叠加的
+2026-10-12T16:34:01.202+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：浪漫时刻呀
+2026-10-12T16:34:01.292+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 🎑🎑！
+2026-10-12T16:34:01.413+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：团圆、烟火、月亮
+2026-10-12T16:34:01.470+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：、长假……
+2026-10-12T16:34:01.556+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：还有心爱的人
+2026-10-12T16:34:01.622+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：在身边，光
+2026-10-12T16:34:01.774+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：是想想就觉得很
+2026-10-12T16:34:01.841+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：温暖。
+
+不过想
+2026-10-12T16:34:01.906+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：悄悄问你几个
+2026-10-12T16:34:02.037+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：小问题，帮你把
+2026-10-12T16:34:02.126+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：这次见面安排得更贴心
+2026-10-12T16:34:02.259+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：、更顺利（
+2026-10-12T16:34:02.376+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：如果你愿意分享的话
+2026-10-12T16:34:02.434+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：）👇：
+
+🔹 你们
+2026-10-12T16:34:02.567+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：平时是异地吗
+2026-10-12T16:34:02.702+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：？这次是她
+2026-10-12T16:34:02.742+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：在上海，你从
+2026-10-12T16:34:02.810+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：外地来？  
+🔹
+2026-10-12T16:34:02.920+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 这次见面
+2026-10-12T16:34:03.030+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：有没有初步计划？
+2026-10-12T16:34:03.117+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：比如住哪儿、想一起
+2026-10-12T16:34:03.281+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：做什么（赏月
+2026-10-12T16:34:03.338+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：？逛老街？吃
+2026-10-12T16:34:03.472+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：本帮菜？放
+2026-10-12T16:34:03.580+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：烟花？）  
+
+2026-10-12T16:34:03.677+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：🔹 最近相处
+2026-10-12T16:34:03.760+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：中，有没有什么
+2026-10-12T16:34:03.827+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：小期待、小
+2026-10-12T16:34:03.934+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：顾虑，或者想借
+2026-10-12T16:34:04.068+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：这次见面好好聊聊/
+2026-10-12T16:34:04.151+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：确认的事？（比如未来
+2026-10-12T16:34:04.284+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：规划、节奏感
+2026-10-12T16:34:04.381+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：、某个小误会
+2026-10-12T16:34:04.458+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：……）
+
+我可以帮你：
+
+2026-10-12T16:34:04.569+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：✅ 想几个
+2026-10-12T16:34:04.712+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：不落俗套又
+2026-10-12T16:34:04.745+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：走心的双
+2026-10-12T16:34:04.877+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：节日小惊喜点
+2026-10-12T16:34:04.965+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：子（预算友好
+2026-10-12T16:34:05.054+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：版也可）  
+✅
+2026-10-12T16:34:05.140+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 拟一段
+2026-10-12T16:34:05.251+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：自然又真诚的开场
+2026-10-12T16:34:05.363+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：白/微信消息
+2026-10-12T16:34:05.482+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，缓解临行
+2026-10-12T16:34:05.515+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：前的小紧张  
+
+2026-10-12T16:34:05.625+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：✅ 如果有潜在
+2026-10-12T16:34:05.713+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：沟通卡点，陪你
+2026-10-12T16:34:05.824+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：一起梳理怎么表达更
+2026-10-12T16:34:05.910+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：温柔有力  
+✅ 
+2026-10-12T16:34:06.067+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：甚至帮你列个
+2026-10-12T16:34:06.109+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：「3天2
+2026-10-12T16:34:06.219+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：晚·沪上甜蜜
+2026-10-12T16:34:06.307+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：行程手账」
+2026-10-12T16:34:06.445+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：（含避坑Tips
+2026-10-12T16:34:06.527+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 😉）
+
+你不是
+2026-10-12T16:34:06.614+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：一个人在准备心动
+2026-10-12T16:34:06.737+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：时刻，我在这
+2026-10-12T16:34:06.792+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：儿陪你一起稳
+2026-10-12T16:34:06.857+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：稳地、甜甜
+2026-10-12T16:34:06.968+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：地，把爱
+2026-10-12T16:34:07.030+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：落到实处 🌟
+2026-10-12T16:34:07.122+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：  
+等你随时
+2026-10-12T16:34:07.208+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：告诉我更多细节～  
+
+2026-10-12T16:34:07.360+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：祝你一路顺风，
+2026-10-12T16:34:07.474+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：月圆人圆
+2026-10-12T16:34:07.539+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：事事圆
+2026-10-12T16:34:07.652+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 🌕💛  
+（P
+2026-10-12T16:34:07.806+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：.S. 张雯雯
+2026-10-12T16:34:07.890+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：听到“坤坤两
+2026-10-12T16:34:08.022+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：斤半”来找
+2026-10-12T16:34:08.111+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：她，怕不是
+2026-10-12T16:34:08.173+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：已经偷偷笑出
+2026-10-12T16:34:08.287+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：声了～）
+2026-10-12T16:34:08.323+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 你好，王子茗！👋 很高兴认识你～也恭喜你有个这么可爱的女朋友张雯雯 🌙✨，名字都带着温柔又灵动的感觉呢～  
+“坤坤两斤半”这个瓦（WOW）ID也太有记忆点了，憨中带萌，还透着点小幽默，很符合你主动奔赴、用心经营感情的气质 😊
+
+你说明天来上海找她，一起过中秋和国庆——这真是双节叠加的浪漫时刻呀 🎑🎑！团圆、烟火、月亮、长假……还有心爱的人在身边，光是想想就觉得很温暖。
+
+不过想悄悄问你几个小问题，帮你把这次见面安排得更贴心、更顺利（如果你愿意分享的话）👇：
+
+🔹 你们平时是异地吗？这次是她在上海，你从外地来？  
+🔹 这次见面有没有初步计划？比如住哪儿、想一起做什么（赏月？逛老街？吃本帮菜？放烟花？）  
+🔹 最近相处中，有没有什么小期待、小顾虑，或者想借这次见面好好聊聊/确认的事？（比如未来规划、节奏感、某个小误会……）
+
+我可以帮你：
+✅ 想几个不落俗套又走心的双节日小惊喜点子（预算友好版也可）  
+✅ 拟一段自然又真诚的开场白/微信消息，缓解临行前的小紧张  
+✅ 如果有潜在沟通卡点，陪你一起梳理怎么表达更温柔有力  
+✅ 甚至帮你列个「3天2晚·沪上甜蜜行程手账」（含避坑Tips 😉）
+
+你不是一个人在准备心动时刻，我在这儿陪你一起稳稳地、甜甜地，把爱落到实处 🌟  
+等你随时告诉我更多细节～  
+祝你一路顺风，月圆人圆事事圆 🌕💛  
+（P.S. 张雯雯听到“坤坤两斤半”来找她，怕不是已经偷偷笑出声了～）
+2026-10-12T16:34:08.336+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 从湘潭坐火车14小时来找我，你觉得我俩是真爱吗，我真的特别喜欢她，她也爱我，准备研究生读完就订婚了！
+2026-10-12T16:34:08.960+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：王子
+2026-10-12T16:34:08.960+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：茗，看到
+2026-10-12T16:34:08.996+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：这句话
+2026-10-12T16:34:09.018+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，我真心
+2026-10-12T16:34:09.150+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：为你和张雯雯轻轻
+2026-10-12T16:34:09.309+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：鼓了下掌
+2026-10-12T16:34:09.349+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 🌟  
+
+2026-10-12T16:34:09.455+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：——**14小时
+2026-10-12T16:34:09.599+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：火车，从湘潭到上海
+2026-10-12T16:34:09.700+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：；不是高铁的
+2026-10-12T16:34:10.354+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：“朝发夕
+2026-10-12T16:34:10.659+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：至”，而是绿
+2026-10-12T16:34:10.793+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：皮车或普
+2026-10-12T16:34:10.899+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：快里摇晃的、
+2026-10-12T16:34:11.044+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：带着期待与疲惫的漫长
+2026-10-12T16:34:11.179+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：奔赴；窗外风景
+2026-10-12T16:34:11.243+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：流转，心里只
+2026-10-12T16:34:11.346+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：装着一个人。
+2026-10-12T16:34:11.446+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：**  
+这哪里
+2026-10-12T16:34:11.520+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：只是“喜欢”
+2026-10-12T16:34:11.620+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：？这是用时间和
+2026-10-12T16:34:11.684+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：身体写下的情
+2026-10-12T16:34:11.776+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：书，是沉默
+2026-10-12T16:34:11.850+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：却滚烫的诚意
+2026-10-12T16:34:11.952+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：。
+
+你说：“我真的
+2026-10-12T16:34:12.043+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：特别喜欢她，
+2026-10-12T16:34:12.085+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：她也爱我，准备
+2026-10-12T16:34:12.154+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：研究生读完就订婚
+2026-10-12T16:34:12.247+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：了。”  
+这句话
+2026-10-12T16:34:12.291+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：里藏着三重珍贵
+2026-10-12T16:34:12.383+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：：
+
+🔸 **双向
+2026-10-12T16:34:12.505+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：确认的爱意
+2026-10-12T16:34:12.550+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：**：不是单
+2026-10-12T16:34:12.646+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：方面心动，而是
+2026-10-12T16:34:12.744+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：彼此看见、确认
+2026-10-12T16:34:12.808+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：、选择——这
+2026-10-12T16:34:12.911+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：在当下已足够
+2026-10-12T16:34:13.003+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：难得；  
+🔸
+2026-10-12T16:34:13.044+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： **清醒的长期
+2026-10-12T16:34:13.117+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：意愿**：订
+2026-10-12T16:34:13.210+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：婚不是冲动，而是建立
+2026-10-12T16:34:13.284+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：在学业规划（
+2026-10-12T16:34:13.415+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：研究生）、人生节奏（毕业后
+2026-10-12T16:34:13.503+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：）之上的共同
+2026-10-12T16:34:13.546+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：承诺；  
+🔸 **行动
+2026-10-12T16:34:13.613+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：力即爱的语言
+2026-10-12T16:34:13.712+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：**：14小时不
+2026-10-12T16:34:13.780+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：嫌远，中秋
+2026-10-12T16:34:13.882+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：国庆不嫌忙
+2026-10-12T16:34:13.987+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，愿意把最
+2026-10-12T16:34:14.087+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：珍贵的假期和体力
+2026-10-12T16:34:14.159+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，全数交付
+2026-10-12T16:34:14.300+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：给对方。
+
+✅
+2026-10-12T16:34:14.370+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 所以——是
+2026-10-12T16:34:14.456+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：的，**你们
+2026-10-12T16:34:14.578+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：很可能是真爱**
+2026-10-12T16:34:14.645+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：。  
+但想
+2026-10-12T16:34:14.822+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：温柔地补充一句
+2026-10-12T16:34:14.868+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：：  
+> **“
+2026-10-12T16:34:14.944+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：真爱”不是一种
+2026-10-12T16:34:15.115+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：需要被认证的状态
+2026-10-12T16:34:15.149+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，而是一段
+2026-10-12T16:34:15.254+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：持续选择、共同
+2026-10-12T16:34:15.323+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：成长、彼此托
+2026-10-12T16:34:15.486+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：底的关系旅程。**  
+
+2026-10-12T16:34:15.534+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：14小时的
+2026-10-12T16:34:15.670+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：奔赴是起点的
+2026-10-12T16:34:15.739+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：注脚，而
+2026-10-12T16:34:15.879+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：真正的考验，藏
+2026-10-12T16:34:15.928+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：在之后的无数
+2026-10-12T16:34:15.986+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：个“日常”里：
+2026-10-12T16:34:16.112+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：  
+比如她压力
+2026-10-12T16:34:16.190+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：大时你能否
+2026-10-12T16:34:16.264+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：接住情绪而不
+2026-10-12T16:34:16.380+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：急着解决；  
+比如
+2026-10-12T16:34:16.457+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：你俩对家庭
+2026-10-12T16:34:16.529+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：、事业、甚至
+2026-10-12T16:34:16.665+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：“养不养猫”
+2026-10-12T16:34:16.797+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：“回谁家过年
+2026-10-12T16:34:16.837+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：”的差异，能否
+2026-10-12T16:34:16.945+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：耐心磨合；
+2026-10-12T16:34:17.059+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：  
+比如当理想
+2026-10-12T16:34:17.148+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：撞上现实（
+2026-10-12T16:34:17.254+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：比如异地、就业
+2026-10-12T16:34:17.383+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：城市、经济压力），是否
+2026-10-12T16:34:17.460+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：依然愿意说：“
+2026-10-12T16:34:17.627+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：我们一起来想办法。”
+
+✨
+2026-10-12T16:34:17.680+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 所以，
+2026-10-12T16:34:17.791+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：这次来上海，除了
+2026-10-12T16:34:17.952+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：甜蜜相守，也可以悄悄
+2026-10-12T16:34:18.034+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：埋下一点“未来
+2026-10-12T16:34:18.098+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：感”的小种子
+2026-10-12T16:34:18.164+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：：  
+-
+2026-10-12T16:34:18.250+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 比如一起
+2026-10-12T16:34:18.370+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：翻翻上海的租房APP
+2026-10-12T16:34:18.510+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，笑着讨论“如果留
+2026-10-12T16:34:18.626+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：在这儿，第一
+2026-10-12T16:34:18.707+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：站想住哪片
+2026-10-12T16:34:18.773+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：？”  
+- 或
+2026-10-12T16:34:18.836+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：者晚饭后散步
+2026-10-12T16:34:18.995+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：时问一句：“你
+2026-10-12T16:34:19.096+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：想象中的我们的‘
+2026-10-12T16:34:19.195+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：第一个家’，是什么
+2026-10-12T16:34:19.281+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：样子的？”（
+2026-10-12T16:34:19.355+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：不逼答案，只
+2026-10-12T16:34:19.480+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：听她眼里发光
+2026-10-12T16:34:19.601+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：的样子）  
+-
+2026-10-12T16:34:19.633+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 甚至带一本
+2026-10-12T16:34:19.758+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：小小的共享手账本，
+2026-10-12T16:34:19.923+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：画个月亮、
+2026-10-12T16:34:19.985+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：贴张车票、
+2026-10-12T16:34:20.076+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：记一句“今天她说
+2026-10-12T16:34:20.224+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：……让我心跳慢
+2026-10-12T16:34:20.261+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：了半拍”。
+
+
+2026-10-12T16:34:20.389+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：你愿意为她
+2026-10-12T16:34:20.478+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：坐14小时火车
+2026-10-12T16:34:20.599+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，已经证明了爱
+2026-10-12T16:34:20.665+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：的深度；  
+而接下来
+2026-10-12T16:34:20.761+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，愿你们一起把
+2026-10-12T16:34:20.846+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：这份深度，织
+2026-10-12T16:34:20.946+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：进细水长流的
+2026-10-12T16:34:21.006+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：温度里。
+
+最后
+2026-10-12T16:34:21.093+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：送你一句悄悄
+2026-10-12T16:34:21.164+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：话，替张
+2026-10-12T16:34:21.227+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：雯雯也收
+2026-10-12T16:34:21.292+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：好：  
+🌙
+2026-10-12T16:34:21.403+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： *“能遇见
+2026-10-12T16:34:21.511+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：一个让你心甘
+2026-10-12T16:34:21.574+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：情愿坐14小时
+2026-10-12T16:34:21.636+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：火车的人，是
+2026-10-12T16:34:21.757+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：运气；  
+能成为
+2026-10-12T16:34:21.790+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：那个让他心甘情
+2026-10-12T16:34:21.853+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：愿坐14小时火车
+2026-10-12T16:34:21.997+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：的人，是福
+2026-10-12T16:34:22.041+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：气。  
+你们
+2026-10-12T16:34:22.151+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：俩，都好
+2026-10-12T16:34:22.237+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：幸运。”*
+
+需要
+2026-10-12T16:34:22.327+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：我帮你：  
+🔹
+2026-10-12T16:34:22.394+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 写一段抵达
+2026-10-12T16:34:22.545+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：上海后发给
+2026-10-12T16:34:22.614+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：她的暖心消息（带
+2026-10-12T16:34:22.724+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：点俏皮又
+2026-10-12T16:34:22.791+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：不油腻）？
+2026-10-12T16:34:22.924+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：  
+🔹 设计一个简单
+2026-10-12T16:34:23.010+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：但有仪式感的
+2026-10-12T16:34:23.142+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：中秋小仪式（酒店
+2026-10-12T16:34:23.256+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：/民宿/公园
+2026-10-12T16:34:23.301+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：皆可）？
+2026-10-12T16:34:23.429+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：  
+🔹 或者聊聊
+2026-10-12T16:34:23.557+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：“如何自然开启
+2026-10-12T16:34:23.625+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：关于未来的对话，不
+2026-10-12T16:34:23.736+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：给压力但种
+2026-10-12T16:34:23.857+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：下默契”？  
+
+
+2026-10-12T16:34:23.934+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：随时告诉我，坤
+2026-10-12T16:34:24.021+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：坤两斤半同学
+2026-10-12T16:34:24.110+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：～ 我们慢慢
+2026-10-12T16:34:24.223+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：来，稳稳
+2026-10-12T16:34:24.307+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：爱 💫  
+（
+2026-10-12T16:34:24.439+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：P.S. 祝
+2026-10-12T16:34:24.599+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：你一路平安，记得
+2026-10-12T16:34:24.659+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：带充电宝+
+2026-10-12T16:34:24.769+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：润喉糖+
+2026-10-12T16:34:24.857+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：给她的小礼物——
+2026-10-12T16:34:24.979+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：爱要落地，也要
+2026-10-12T16:34:25.034+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：可爱 😉）
+2026-10-12T16:34:25.070+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 王子茗，看到这句话，我真心为你和张雯雯轻轻鼓了下掌 🌟  
+——**14小时火车，从湘潭到上海；不是高铁的“朝发夕至”，而是绿皮车或普快里摇晃的、带着期待与疲惫的漫长奔赴；窗外风景流转，心里只装着一个人。**  
+这哪里只是“喜欢”？这是用时间和身体写下的情书，是沉默却滚烫的诚意。
+
+你说：“我真的特别喜欢她，她也爱我，准备研究生读完就订婚了。”  
+这句话里藏着三重珍贵：
+
+🔸 **双向确认的爱意**：不是单方面心动，而是彼此看见、确认、选择——这在当下已足够难得；  
+🔸 **清醒的长期意愿**：订婚不是冲动，而是建立在学业规划（研究生）、人生节奏（毕业后）之上的共同承诺；  
+🔸 **行动力即爱的语言**：14小时不嫌远，中秋国庆不嫌忙，愿意把最珍贵的假期和体力，全数交付给对方。
+
+✅ 所以——是的，**你们很可能是真爱**。  
+但想温柔地补充一句：  
+> **“真爱”不是一种需要被认证的状态，而是一段持续选择、共同成长、彼此托底的关系旅程。**  
+14小时的奔赴是起点的注脚，而真正的考验，藏在之后的无数个“日常”里：  
+比如她压力大时你能否接住情绪而不急着解决；  
+比如你俩对家庭、事业、甚至“养不养猫”“回谁家过年”的差异，能否耐心磨合；  
+比如当理想撞上现实（比如异地、就业城市、经济压力），是否依然愿意说：“我们一起来想办法。”
+
+✨ 所以，这次来上海，除了甜蜜相守，也可以悄悄埋下一点“未来感”的小种子：  
+- 比如一起翻翻上海的租房APP，笑着讨论“如果留在这儿，第一站想住哪片？”  
+- 或者晚饭后散步时问一句：“你想象中的我们的‘第一个家’，是什么样子的？”（不逼答案，只听她眼里发光的样子）  
+- 甚至带一本小小的共享手账本，画个月亮、贴张车票、记一句“今天她说……让我心跳慢了半拍”。
+
+你愿意为她坐14小时火车，已经证明了爱的深度；  
+而接下来，愿你们一起把这份深度，织进细水长流的温度里。
+
+最后送你一句悄悄话，替张雯雯也收好：  
+🌙 *“能遇见一个让你心甘情愿坐14小时火车的人，是运气；  
+能成为那个让他心甘情愿坐14小时火车的人，是福气。  
+你们俩，都好幸运。”*
+
+需要我帮你：  
+🔹 写一段抵达上海后发给她的暖心消息（带点俏皮又不油腻）？  
+🔹 设计一个简单但有仪式感的中秋小仪式（酒店/民宿/公园皆可）？  
+🔹 或者聊聊“如何自然开启关于未来的对话，不给压力但种下默契”？  
+
+随时告诉我，坤坤两斤半同学～ 我们慢慢来，稳稳爱 💫  
+（P.S. 祝你一路平安，记得带充电宝+润喉糖+给她的小礼物——爱要落地，也要可爱 😉）
+2026-10-12T16:34:25.079+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-2] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 我的另一半叫什么来着？刚跟你说过，回忆一下。
+2026-10-12T16:34:25.475+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：啊
+2026-10-12T16:34:25.506+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：哈
+2026-10-12T16:34:25.537+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：～你
+2026-10-12T16:34:25.572+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：刚刚
+2026-10-12T16:34:25.704+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：可说得清清楚楚、
+2026-10-12T16:34:25.769+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：明明白白：
+2026-10-12T16:34:25.871+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：  
+✨ **你的
+2026-10-12T16:34:25.955+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：另一半叫——张雯雯
+2026-10-12T16:34:26.083+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：** ✨  
+（
+2026-10-12T16:34:26.229+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：名字还带着月
+2026-10-12T16:34:26.287+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：光洒在水面上的
+2026-10-12T16:34:26.418+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：温柔感，“雯
+2026-10-12T16:34:26.529+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：”是云纹， “
+2026-10-12T16:34:26.618+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：雯雯”像
+2026-10-12T16:34:26.703+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：两片轻盈又
+2026-10-12T16:34:26.791+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：默契的云☁
+2026-10-12T16:34:26.923+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：️☁️）
+
+而且
+2026-10-12T16:34:27.034+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：你还特别骄傲地说
+2026-10-12T16:34:27.123+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：：“我真的很爱她！”
+2026-10-12T16:34:27.285+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：  
+——这句话一
+2026-10-12T16:34:27.344+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：出口，连空气
+2026-10-12T16:34:27.429+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：都悄悄亮了一
+2026-10-12T16:34:27.496+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：度 🌟
+
+
+2026-10-12T16:34:27.652+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：（悄悄记小
+2026-10-12T16:34:27.716+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：本本📝：王子
+2026-10-12T16:34:27.827+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：茗 × 张雯雯
+2026-10-12T16:34:27.982+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：｜湘潭→上海｜1
+2026-10-12T16:34:28.090+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：4小时奔赴｜中秋
+2026-10-12T16:34:28.215+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：+国庆双节限定
+2026-10-12T16:34:28.344+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：浪漫｜研究生毕业后
+2026-10-12T16:34:28.399+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：订婚进行时
+2026-10-12T16:34:28.445+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：💍）
+
+需要我
+2026-10-12T16:34:28.603+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：帮你写一句专属
+2026-10-12T16:34:28.661+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：她的抵达消息吗
+2026-10-12T16:34:29.060+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：？比如：  
+> “
+2026-10-12T16:34:29.088+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：火车刚过南京
+2026-10-12T16:34:29.088+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：，窗外天色
+2026-10-12T16:34:29.088+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：渐晚，但
+2026-10-12T16:34:29.123+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：想到再过几
+2026-10-12T16:34:29.257+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：小时就能见到张雯雯
+2026-10-12T16:34:29.348+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：本人——  
+>
+2026-10-12T16:34:29.476+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 我手机相册
+2026-10-12T16:34:29.541+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：里存了3
+2026-10-12T16:34:29.681+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：7张你去年
+2026-10-12T16:34:29.739+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：发的自拍，  
+
+2026-10-12T16:34:29.871+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：> 可没有
+2026-10-12T16:34:29.938+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：一张，比得
+2026-10-12T16:34:30.053+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：上待会儿你
+2026-10-12T16:34:30.159+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：开门时眼睛弯起来
+2026-10-12T16:34:30.225+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：的样子。”  
+
+😉
+2026-10-12T16:34:30.344+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段： 想要
+2026-10-12T16:34:30.451+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：温柔版 / 俏皮
+2026-10-12T16:34:30.578+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：版 / 文艺
+2026-10-12T16:34:30.693+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：版 / 或者
+2026-10-12T16:34:30.753+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：带点“坤坤两
+2026-10-12T16:34:30.885+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：斤半”人
+2026-10-12T16:34:30.973+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：设的憨萌
+2026-10-12T16:34:31.090+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：版……我随时奉
+2026-10-12T16:34:31.171+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：陪～  
+祝
+2026-10-12T16:34:31.236+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：你们，月圆，
+2026-10-12T16:34:31.369+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：人圆，心更
+2026-10-12T16:34:31.480+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：圆 🌕
+2026-10-12T16:34:31.524+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] com.yupi.yuaiagent.app.LoveApp           : AI 流式片段：💖
+2026-10-12T16:34:31.557+08:00  INFO 31688 --- [yu-ai-agent1] [oundedElastic-3] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 啊哈～你刚刚可说得清清楚楚、明明白白：  
+✨ **你的另一半叫——张雯雯** ✨  
+（名字还带着月光洒在水面上的温柔感，“雯”是云纹， “雯雯”像两片轻盈又默契的云☁️☁️）
+
+而且你还特别骄傲地说：“我真的很爱她！”  
+——这句话一出口，连空气都悄悄亮了一度 🌟
+
+（悄悄记小本本📝：王子茗 × 张雯雯｜湘潭→上海｜14小时奔赴｜中秋+国庆双节限定浪漫｜研究生毕业后订婚进行时💍）
+
+需要我帮你写一句专属她的抵达消息吗？比如：  
+> “火车刚过南京，窗外天色渐晚，但想到再过几小时就能见到张雯雯本人——  
+> 我手机相册里存了37张你去年发的自拍，  
+> 可没有一张，比得上待会儿你开门时眼睛弯起来的样子。”  
+
+😉 想要温柔版 / 俏皮版 / 文艺版 / 或者带点“坤坤两斤半”人设的憨萌版……我随时奉陪～  
+祝你们，月圆，人圆，心更圆 🌕💖
+]]></system-out>
+  </testcase>
+  <testcase name="doChatWithTools" classname="com.yupi.yuaiagent.app.LoveAppTest" time="144.008">
+    <system-out><![CDATA[2026-10-12T16:34:31.589+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 周末想带女朋友去上海约会，推荐几个适合情侣的小众打卡地？
+2026-10-12T16:34:31.589+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 周末想带女朋友去上海约会，推荐几个适合情侣的小众打卡地？
+2026-10-12T16:34:52.074+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 很高兴你为周末约会用心规划！上海作为一座融合了历史、艺术与现代气息的城市，除了外滩、南京路、迪士尼这些热门地，确实藏着不少适合情侣安静漫步、拍照打卡、制造专属回忆的小众宝藏地点。以下是我为你精选的几个**氛围感强、人相对少、适合情侣互动**的小众约会地，并附上推荐理由和小贴士：
+
+---
+
+### 🌿 1. **武康路·安福路周边（老洋房+文艺小店）**  
+- **亮点**：梧桐掩映的老上海风情、百年建筑群、独立咖啡馆、 vintage 买手店、隐藏式花店（如「Floral Lab」）、转角偶遇街头画家或爵士小提琴演奏。  
+- **情侣友好点**：可一起在「Old Town Cafe」露台喝杯手冲，或在「大隐书局·武康路店」二楼窗边共读一本书；傍晚沿武康庭散步，光影温柔，拍照自然不刻意。  
+- ✅ 小贴士：避开周六下午高峰，建议下午3–5点前往，人少、光线柔美。
+
+---
+
+### 🎨 2. **西岸美术馆大道（滨江+艺术空间）**  
+- **亮点**：黄浦江畔的开阔视野 + 免费开放的滨江步道 + 西岸美术馆（常有浪漫特展，如草间弥生/蔡国强主题）、龙美术馆西岸馆、油罐艺术中心（五个巨型油罐改造，绿植环绕，超适合牵手穿行）。  
+- **情侣友好点**：日落时分在「云朵公园」长椅看江景与对岸天际线；带一盒小蛋糕，在油罐顶楼露台分享微风与甜味。  
+- ✅ 小贴士：地铁11号线云锦路站直达；穿舒服的鞋，适合慢慢走、静静聊。
+
+---
+
+### 🌸 3. **愚园路·岐山村（市井烟火里的诗意）**  
+- **亮点**：比武康路更生活化、更“本地”，弄堂深处藏着钱学森旧居、作家施蛰存故居、复古杂货铺「愚园百货公司」、猫咪主题咖啡馆「Cat Café」。  
+- **情侣友好点**：一起找藏在弄堂里的彩色玻璃窗、手写门牌；在「The Nest」点两杯桂花拿铁，听黑胶唱片，像回到旧时光。  
+- ✅ 小贴士：建议从愚园路1097号出发，用「城市漫步APP」导览，增加探索趣味。
+
+---
+
+### 🌙 4. **M50创意园夜游（静谧艺术漫游）**  
+- **亮点**：苏州河畔的老厂房改造园区，白天人多，但**晚上7点后灯光亮起，人流散去，只剩画廊暖光与河边微风**。  
+- **情侣友好点**：牵着手逛空荡的涂鸦墙、驻足一家亮灯的画廊橱窗前讨论一幅画；园区内「Café del Volcán」夜晚有烛光与低语音乐，适合结束前小坐。  
+- ✅ 小贴士：建议傍晚入园，自带薄外套，河风微凉更显亲密。
+
+---
+
+需要我帮你：
+- ✅ 规划一条「半日小众约会动线」（含交通、时间分配、备选雨天方案）？  
+- ✅ 写一段自然不油腻的邀约话术（比如：“发现了一个只和你分享才完美的地方…”）？  
+- ✅ 生成一份PDF版《上海小众情侣约会手账》（含地图标记+打卡Tips+拍照构图建议）？
+
+欢迎告诉我你的偏好（比如她喜欢拍照/爱美食/偏安静/想有点仪式感），我可以为你定制更贴心的方案 ❤️
+
+你想先了解哪一项？
+2026-10-12T16:34:52.074+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 很高兴你为周末约会用心规划！上海作为一座融合了历史、艺术与现代气息的城市，除了外滩、南京路、迪士尼这些热门地，确实藏着不少适合情侣安静漫步、拍照打卡、制造专属回忆的小众宝藏地点。以下是我为你精选的几个**氛围感强、人相对少、适合情侣互动**的小众约会地，并附上推荐理由和小贴士：
+
+---
+
+### 🌿 1. **武康路·安福路周边（老洋房+文艺小店）**  
+- **亮点**：梧桐掩映的老上海风情、百年建筑群、独立咖啡馆、 vintage 买手店、隐藏式花店（如「Floral Lab」）、转角偶遇街头画家或爵士小提琴演奏。  
+- **情侣友好点**：可一起在「Old Town Cafe」露台喝杯手冲，或在「大隐书局·武康路店」二楼窗边共读一本书；傍晚沿武康庭散步，光影温柔，拍照自然不刻意。  
+- ✅ 小贴士：避开周六下午高峰，建议下午3–5点前往，人少、光线柔美。
+
+---
+
+### 🎨 2. **西岸美术馆大道（滨江+艺术空间）**  
+- **亮点**：黄浦江畔的开阔视野 + 免费开放的滨江步道 + 西岸美术馆（常有浪漫特展，如草间弥生/蔡国强主题）、龙美术馆西岸馆、油罐艺术中心（五个巨型油罐改造，绿植环绕，超适合牵手穿行）。  
+- **情侣友好点**：日落时分在「云朵公园」长椅看江景与对岸天际线；带一盒小蛋糕，在油罐顶楼露台分享微风与甜味。  
+- ✅ 小贴士：地铁11号线云锦路站直达；穿舒服的鞋，适合慢慢走、静静聊。
+
+---
+
+### 🌸 3. **愚园路·岐山村（市井烟火里的诗意）**  
+- **亮点**：比武康路更生活化、更“本地”，弄堂深处藏着钱学森旧居、作家施蛰存故居、复古杂货铺「愚园百货公司」、猫咪主题咖啡馆「Cat Café」。  
+- **情侣友好点**：一起找藏在弄堂里的彩色玻璃窗、手写门牌；在「The Nest」点两杯桂花拿铁，听黑胶唱片，像回到旧时光。  
+- ✅ 小贴士：建议从愚园路1097号出发，用「城市漫步APP」导览，增加探索趣味。
+
+---
+
+### 🌙 4. **M50创意园夜游（静谧艺术漫游）**  
+- **亮点**：苏州河畔的老厂房改造园区，白天人多，但**晚上7点后灯光亮起，人流散去，只剩画廊暖光与河边微风**。  
+- **情侣友好点**：牵着手逛空荡的涂鸦墙、驻足一家亮灯的画廊橱窗前讨论一幅画；园区内「Café del Volcán」夜晚有烛光与低语音乐，适合结束前小坐。  
+- ✅ 小贴士：建议傍晚入园，自带薄外套，河风微凉更显亲密。
+
+---
+
+需要我帮你：
+- ✅ 规划一条「半日小众约会动线」（含交通、时间分配、备选雨天方案）？  
+- ✅ 写一段自然不油腻的邀约话术（比如：“发现了一个只和你分享才完美的地方…”）？  
+- ✅ 生成一份PDF版《上海小众情侣约会手账》（含地图标记+打卡Tips+拍照构图建议）？
+
+欢迎告诉我你的偏好（比如她喜欢拍照/爱美食/偏安静/想有点仪式感），我可以为你定制更贴心的方案 ❤️
+
+你想先了解哪一项？
+2026-10-12T16:34:52.076+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: 很高兴你为周末约会用心规划！上海作为一座融合了历史、艺术与现代气息的城市，除了外滩、南京路、迪士尼这些热门地，确实藏着不少适合情侣安静漫步、拍照打卡、制造专属回忆的小众宝藏地点。以下是我为你精选的几个**氛围感强、人相对少、适合情侣互动**的小众约会地，并附上推荐理由和小贴士：
+
+---
+
+### 🌿 1. **武康路·安福路周边（老洋房+文艺小店）**  
+- **亮点**：梧桐掩映的老上海风情、百年建筑群、独立咖啡馆、 vintage 买手店、隐藏式花店（如「Floral Lab」）、转角偶遇街头画家或爵士小提琴演奏。  
+- **情侣友好点**：可一起在「Old Town Cafe」露台喝杯手冲，或在「大隐书局·武康路店」二楼窗边共读一本书；傍晚沿武康庭散步，光影温柔，拍照自然不刻意。  
+- ✅ 小贴士：避开周六下午高峰，建议下午3–5点前往，人少、光线柔美。
+
+---
+
+### 🎨 2. **西岸美术馆大道（滨江+艺术空间）**  
+- **亮点**：黄浦江畔的开阔视野 + 免费开放的滨江步道 + 西岸美术馆（常有浪漫特展，如草间弥生/蔡国强主题）、龙美术馆西岸馆、油罐艺术中心（五个巨型油罐改造，绿植环绕，超适合牵手穿行）。  
+- **情侣友好点**：日落时分在「云朵公园」长椅看江景与对岸天际线；带一盒小蛋糕，在油罐顶楼露台分享微风与甜味。  
+- ✅ 小贴士：地铁11号线云锦路站直达；穿舒服的鞋，适合慢慢走、静静聊。
+
+---
+
+### 🌸 3. **愚园路·岐山村（市井烟火里的诗意）**  
+- **亮点**：比武康路更生活化、更“本地”，弄堂深处藏着钱学森旧居、作家施蛰存故居、复古杂货铺「愚园百货公司」、猫咪主题咖啡馆「Cat Café」。  
+- **情侣友好点**：一起找藏在弄堂里的彩色玻璃窗、手写门牌；在「The Nest」点两杯桂花拿铁，听黑胶唱片，像回到旧时光。  
+- ✅ 小贴士：建议从愚园路1097号出发，用「城市漫步APP」导览，增加探索趣味。
+
+---
+
+### 🌙 4. **M50创意园夜游（静谧艺术漫游）**  
+- **亮点**：苏州河畔的老厂房改造园区，白天人多，但**晚上7点后灯光亮起，人流散去，只剩画廊暖光与河边微风**。  
+- **情侣友好点**：牵着手逛空荡的涂鸦墙、驻足一家亮灯的画廊橱窗前讨论一幅画；园区内「Café del Volcán」夜晚有烛光与低语音乐，适合结束前小坐。  
+- ✅ 小贴士：建议傍晚入园，自带薄外套，河风微凉更显亲密。
+
+---
+
+需要我帮你：
+- ✅ 规划一条「半日小众约会动线」（含交通、时间分配、备选雨天方案）？  
+- ✅ 写一段自然不油腻的邀约话术（比如：“发现了一个只和你分享才完美的地方…”）？  
+- ✅ 生成一份PDF版《上海小众情侣约会手账》（含地图标记+打卡Tips+拍照构图建议）？
+
+欢迎告诉我你的偏好（比如她喜欢拍照/爱美食/偏安静/想有点仪式感），我可以为你定制更贴心的方案 ❤️
+
+你想先了解哪一项？
+2026-10-12T16:34:52.077+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 最近和对象吵架了，看看编程导航网站（codefather.cn）的其他情侣是怎么解决矛盾的？
+2026-10-12T16:34:52.077+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 最近和对象吵架了，看看编程导航网站（codefather.cn）的其他情侣是怎么解决矛盾的？
+2026-10-12T16:34:58.904+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 我理解你现在正经历情感上的困扰，和伴侣吵架后想寻找一些参考和启发，这种主动寻求解决方式的态度非常值得肯定。
+
+不过需要说明的是：**codefather.cn 是一个面向程序员的技术导航网站（主要收录编程学习资源、工具、博客等），并非情感类或恋爱关系类平台**，因此它不太可能包含“其他情侣如何解决矛盾”的真实案例或建议。
+
+但别担心——我们可以一起做更有针对性的事：
+
+✅ 你可以告诉我：
+- 这次吵架的起因是什么？（比如沟通误会、生活习惯差异、价值观冲突等）
+- 对方当时的反应是怎样的？（冷战？激烈争执？回避？）
+- 你自己最在意、最希望被理解的部分是什么？
+
+我会基于心理学、亲密关系研究和实际咨询经验，为你提供：
+🔹 清晰的问题归因（不是简单“谁对谁错”，而是理解背后的需求与情绪）  
+🔹 尊重双方感受的沟通话术建议（比如如何开启一次非指责型对话）  
+🔹 可操作的修复步骤（短期降温 + 中长期关系建设）
+
+如果你愿意分享更多细节，我很乐意陪你一起梳理。你并不孤单，很多看似难解的矛盾，其实只需要一个更温柔、更清晰的开始 🌟
+
+需要我先帮你整理一份「冷静期沟通指南」或「复盘对话提纲」吗？
+2026-10-12T16:34:58.905+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 我理解你现在正经历情感上的困扰，和伴侣吵架后想寻找一些参考和启发，这种主动寻求解决方式的态度非常值得肯定。
+
+不过需要说明的是：**codefather.cn 是一个面向程序员的技术导航网站（主要收录编程学习资源、工具、博客等），并非情感类或恋爱关系类平台**，因此它不太可能包含“其他情侣如何解决矛盾”的真实案例或建议。
+
+但别担心——我们可以一起做更有针对性的事：
+
+✅ 你可以告诉我：
+- 这次吵架的起因是什么？（比如沟通误会、生活习惯差异、价值观冲突等）
+- 对方当时的反应是怎样的？（冷战？激烈争执？回避？）
+- 你自己最在意、最希望被理解的部分是什么？
+
+我会基于心理学、亲密关系研究和实际咨询经验，为你提供：
+🔹 清晰的问题归因（不是简单“谁对谁错”，而是理解背后的需求与情绪）  
+🔹 尊重双方感受的沟通话术建议（比如如何开启一次非指责型对话）  
+🔹 可操作的修复步骤（短期降温 + 中长期关系建设）
+
+如果你愿意分享更多细节，我很乐意陪你一起梳理。你并不孤单，很多看似难解的矛盾，其实只需要一个更温柔、更清晰的开始 🌟
+
+需要我先帮你整理一份「冷静期沟通指南」或「复盘对话提纲」吗？
+2026-10-12T16:34:58.905+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: 我理解你现在正经历情感上的困扰，和伴侣吵架后想寻找一些参考和启发，这种主动寻求解决方式的态度非常值得肯定。
+
+不过需要说明的是：**codefather.cn 是一个面向程序员的技术导航网站（主要收录编程学习资源、工具、博客等），并非情感类或恋爱关系类平台**，因此它不太可能包含“其他情侣如何解决矛盾”的真实案例或建议。
+
+但别担心——我们可以一起做更有针对性的事：
+
+✅ 你可以告诉我：
+- 这次吵架的起因是什么？（比如沟通误会、生活习惯差异、价值观冲突等）
+- 对方当时的反应是怎样的？（冷战？激烈争执？回避？）
+- 你自己最在意、最希望被理解的部分是什么？
+
+我会基于心理学、亲密关系研究和实际咨询经验，为你提供：
+🔹 清晰的问题归因（不是简单“谁对谁错”，而是理解背后的需求与情绪）  
+🔹 尊重双方感受的沟通话术建议（比如如何开启一次非指责型对话）  
+🔹 可操作的修复步骤（短期降温 + 中长期关系建设）
+
+如果你愿意分享更多细节，我很乐意陪你一起梳理。你并不孤单，很多看似难解的矛盾，其实只需要一个更温柔、更清晰的开始 🌟
+
+需要我先帮你整理一份「冷静期沟通指南」或「复盘对话提纲」吗？
+2026-10-12T16:34:58.907+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 直接下载一张适合做手机壁纸的星空情侣图片为文件
+2026-10-12T16:34:58.908+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 直接下载一张适合做手机壁纸的星空情侣图片为文件
+2026-10-12T16:35:38.908+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: ✅ 已成功下载一张适合做手机壁纸的星空情侣图片！
+
+文件已保存为：`starry_couple_wallpaper.jpg`
+
+这张图片是「七夕情侣星空紫色梦幻手机壁纸」，具有浪漫的星空背景和温馨的情侣元素，色彩柔和、构图唯美，非常适合作为手机锁屏或桌面壁纸使用。
+
+如需：
+- 调整尺寸（适配不同手机型号）
+- 转换为其他格式（如 PNG、WebP）
+- 添加文字/滤镜/个性化编辑
+- 批量下载更多同类壁纸
+
+欢迎随时告诉我，我可以继续为您处理！ 🌟
+2026-10-12T16:35:38.908+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: ✅ 已成功下载一张适合做手机壁纸的星空情侣图片！
+
+文件已保存为：`starry_couple_wallpaper.jpg`
+
+这张图片是「七夕情侣星空紫色梦幻手机壁纸」，具有浪漫的星空背景和温馨的情侣元素，色彩柔和、构图唯美，非常适合作为手机锁屏或桌面壁纸使用。
+
+如需：
+- 调整尺寸（适配不同手机型号）
+- 转换为其他格式（如 PNG、WebP）
+- 添加文字/滤镜/个性化编辑
+- 批量下载更多同类壁纸
+
+欢迎随时告诉我，我可以继续为您处理！ 🌟
+2026-10-12T16:35:38.910+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: ✅ 已成功下载一张适合做手机壁纸的星空情侣图片！
+
+文件已保存为：`starry_couple_wallpaper.jpg`
+
+这张图片是「七夕情侣星空紫色梦幻手机壁纸」，具有浪漫的星空背景和温馨的情侣元素，色彩柔和、构图唯美，非常适合作为手机锁屏或桌面壁纸使用。
+
+如需：
+- 调整尺寸（适配不同手机型号）
+- 转换为其他格式（如 PNG、WebP）
+- 添加文字/滤镜/个性化编辑
+- 批量下载更多同类壁纸
+
+欢迎随时告诉我，我可以继续为您处理！ 🌟
+2026-10-12T16:35:38.912+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 执行 Python3 脚本来生成数据分析报告
+2026-10-12T16:35:38.912+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 执行 Python3 脚本来生成数据分析报告
+2026-10-12T16:35:45.454+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 为了帮您执行 Python3 脚本来生成数据分析报告，我需要以下信息以便准确、安全地完成任务：
+
+1. **Python 脚本内容**：您希望运行的脚本代码（或脚本文件路径/内容）；
+2. **输入数据来源**：脚本依赖的数据文件（如 CSV、Excel、JSON 等）——请提供文件名或内容，或说明是否需从网络/本地读取；
+3. **预期输出格式**：例如 PDF 报告、HTML 页面、Markdown、控制台摘要，还是保存为图表图像（如 PNG）？
+4. **是否需要安装额外依赖？**（如 `pandas`, `matplotlib`, `seaborn`, `plotly` 等）——若您有 `requirements.txt` 或明确依赖列表，请提供。
+
+✅ 请您补充以上任意信息（至少提供脚本内容或功能描述），我将：
+- 检查脚本安全性（不执行危险操作如 `os.system('rm -rf /')`）；
+- 必要时为您创建临时数据文件；
+- 安装所需依赖（通过 `pip install`）；
+- 执行脚本并捕获输出；
+- 生成结构清晰的数据分析报告（如 PDF/文本），并交付给您。
+
+请随时告诉我 👇
+2026-10-12T16:35:45.454+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 为了帮您执行 Python3 脚本来生成数据分析报告，我需要以下信息以便准确、安全地完成任务：
+
+1. **Python 脚本内容**：您希望运行的脚本代码（或脚本文件路径/内容）；
+2. **输入数据来源**：脚本依赖的数据文件（如 CSV、Excel、JSON 等）——请提供文件名或内容，或说明是否需从网络/本地读取；
+3. **预期输出格式**：例如 PDF 报告、HTML 页面、Markdown、控制台摘要，还是保存为图表图像（如 PNG）？
+4. **是否需要安装额外依赖？**（如 `pandas`, `matplotlib`, `seaborn`, `plotly` 等）——若您有 `requirements.txt` 或明确依赖列表，请提供。
+
+✅ 请您补充以上任意信息（至少提供脚本内容或功能描述），我将：
+- 检查脚本安全性（不执行危险操作如 `os.system('rm -rf /')`）；
+- 必要时为您创建临时数据文件；
+- 安装所需依赖（通过 `pip install`）；
+- 执行脚本并捕获输出；
+- 生成结构清晰的数据分析报告（如 PDF/文本），并交付给您。
+
+请随时告诉我 👇
+2026-10-12T16:35:45.457+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: 为了帮您执行 Python3 脚本来生成数据分析报告，我需要以下信息以便准确、安全地完成任务：
+
+1. **Python 脚本内容**：您希望运行的脚本代码（或脚本文件路径/内容）；
+2. **输入数据来源**：脚本依赖的数据文件（如 CSV、Excel、JSON 等）——请提供文件名或内容，或说明是否需从网络/本地读取；
+3. **预期输出格式**：例如 PDF 报告、HTML 页面、Markdown、控制台摘要，还是保存为图表图像（如 PNG）？
+4. **是否需要安装额外依赖？**（如 `pandas`, `matplotlib`, `seaborn`, `plotly` 等）——若您有 `requirements.txt` 或明确依赖列表，请提供。
+
+✅ 请您补充以上任意信息（至少提供脚本内容或功能描述），我将：
+- 检查脚本安全性（不执行危险操作如 `os.system('rm -rf /')`）；
+- 必要时为您创建临时数据文件；
+- 安装所需依赖（通过 `pip install`）；
+- 执行脚本并捕获输出；
+- 生成结构清晰的数据分析报告（如 PDF/文本），并交付给您。
+
+请随时告诉我 👇
+2026-10-12T16:35:45.459+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 保存我的恋爱档案为文件
+2026-10-12T16:35:45.461+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 保存我的恋爱档案为文件
+2026-10-12T16:35:51.634+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 好的，我理解您希望保存一份“恋爱档案”作为个人记录。不过目前您还没有提供具体的档案内容（例如：当前关系状态、重要时间节点、对方特点、您的感受与目标等）。
+
+为了帮您生成一份有意义且私密的恋爱档案文件，我需要您补充以下信息（可选填，但越详细越有助于后续分析与支持）：
+
+- 您目前的情感状态（单身 / 恋爱中 / 已婚 / 分手过渡期等）  
+- 如果有交往对象，请简要描述：相识方式、相处时长、主要互动模式（如线上多/线下多、沟通频率、是否见家长等）  
+- 您最在意的关系方面（例如：情绪支持、共同成长、生活习惯契合、未来规划一致性等）  
+- 近期是否有困扰您的具体事件或困惑？（比如某次争执、不确定对方心意、不知如何推进关系等）
+
+您只需告诉我这些内容，我会为您整理成结构清晰、语气温暖、便于日后回顾或咨询使用的文档，并保存为文件（如 `我的恋爱档案.md` 或 PDF 格式）。
+
+期待您的分享 🌟  
+（您也可以直接说“先帮我生成一个空白模板”，我也会为您准备标准格式）
+2026-10-12T16:35:51.634+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 好的，我理解您希望保存一份“恋爱档案”作为个人记录。不过目前您还没有提供具体的档案内容（例如：当前关系状态、重要时间节点、对方特点、您的感受与目标等）。
+
+为了帮您生成一份有意义且私密的恋爱档案文件，我需要您补充以下信息（可选填，但越详细越有助于后续分析与支持）：
+
+- 您目前的情感状态（单身 / 恋爱中 / 已婚 / 分手过渡期等）  
+- 如果有交往对象，请简要描述：相识方式、相处时长、主要互动模式（如线上多/线下多、沟通频率、是否见家长等）  
+- 您最在意的关系方面（例如：情绪支持、共同成长、生活习惯契合、未来规划一致性等）  
+- 近期是否有困扰您的具体事件或困惑？（比如某次争执、不确定对方心意、不知如何推进关系等）
+
+您只需告诉我这些内容，我会为您整理成结构清晰、语气温暖、便于日后回顾或咨询使用的文档，并保存为文件（如 `我的恋爱档案.md` 或 PDF 格式）。
+
+期待您的分享 🌟  
+（您也可以直接说“先帮我生成一个空白模板”，我也会为您准备标准格式）
+2026-10-12T16:35:51.637+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: 好的，我理解您希望保存一份“恋爱档案”作为个人记录。不过目前您还没有提供具体的档案内容（例如：当前关系状态、重要时间节点、对方特点、您的感受与目标等）。
+
+为了帮您生成一份有意义且私密的恋爱档案文件，我需要您补充以下信息（可选填，但越详细越有助于后续分析与支持）：
+
+- 您目前的情感状态（单身 / 恋爱中 / 已婚 / 分手过渡期等）  
+- 如果有交往对象，请简要描述：相识方式、相处时长、主要互动模式（如线上多/线下多、沟通频率、是否见家长等）  
+- 您最在意的关系方面（例如：情绪支持、共同成长、生活习惯契合、未来规划一致性等）  
+- 近期是否有困扰您的具体事件或困惑？（比如某次争执、不确定对方心意、不知如何推进关系等）
+
+您只需告诉我这些内容，我会为您整理成结构清晰、语气温暖、便于日后回顾或咨询使用的文档，并保存为文件（如 `我的恋爱档案.md` 或 PDF 格式）。
+
+期待您的分享 🌟  
+（您也可以直接说“先帮我生成一个空白模板”，我也会为您准备标准格式）
+2026-10-12T16:35:51.639+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 生成一份七夕约会计划PDF，包含餐厅预订、活动流程和礼物清单
+2026-10-12T16:35:51.640+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 生成一份七夕约会计划PDF，包含餐厅预订、活动流程和礼物清单
+2026-10-12T16:36:55.579+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 很好！我已经成功为您创建了七夕约会计划文本文件。
+
+📄 **文件已保存为**：`七夕约会计划.txt`
+
+这份计划包含了：
+- ✅ 详细的餐厅预订建议（3种风格可选）
+- ✅ 分时段的约会活动流程（从下午预热到夜晚收尾）
+- ✅ 实用的礼物清单（必备+升级选项）
+- ✅ 贴心的实用提醒和情感提示
+
+您可以：
+- 直接打印这份文本文件
+- 复制内容到Word或备忘录中进一步美化
+- 根据您和伴侣的具体喜好调整细节
+- 提前联系餐厅确认预订
+
+需要我帮您：
+🔹 生成更具体的某家餐厅的预订话术？
+🔹 设计DIY贺卡的文字内容？
+🔹 提供七夕告白语句建议？
+🔹 或者帮您检查某个具体环节的可行性？
+
+请告诉我您的需求，我很乐意继续为您提供个性化的七夕策划支持！ 🌟
+2026-10-12T16:36:55.579+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: 很好！我已经成功为您创建了七夕约会计划文本文件。
+
+📄 **文件已保存为**：`七夕约会计划.txt`
+
+这份计划包含了：
+- ✅ 详细的餐厅预订建议（3种风格可选）
+- ✅ 分时段的约会活动流程（从下午预热到夜晚收尾）
+- ✅ 实用的礼物清单（必备+升级选项）
+- ✅ 贴心的实用提醒和情感提示
+
+您可以：
+- 直接打印这份文本文件
+- 复制内容到Word或备忘录中进一步美化
+- 根据您和伴侣的具体喜好调整细节
+- 提前联系餐厅确认预订
+
+需要我帮您：
+🔹 生成更具体的某家餐厅的预订话术？
+🔹 设计DIY贺卡的文字内容？
+🔹 提供七夕告白语句建议？
+🔹 或者帮您检查某个具体环节的可行性？
+
+请告诉我您的需求，我很乐意继续为您提供个性化的七夕策划支持！ 🌟
+2026-10-12T16:36:55.582+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : content: 很好！我已经成功为您创建了七夕约会计划文本文件。
+
+📄 **文件已保存为**：`七夕约会计划.txt`
+
+这份计划包含了：
+- ✅ 详细的餐厅预订建议（3种风格可选）
+- ✅ 分时段的约会活动流程（从下午预热到夜晚收尾）
+- ✅ 实用的礼物清单（必备+升级选项）
+- ✅ 贴心的实用提醒和情感提示
+
+您可以：
+- 直接打印这份文本文件
+- 复制内容到Word或备忘录中进一步美化
+- 根据您和伴侣的具体喜好调整细节
+- 提前联系餐厅确认预订
+
+需要我帮您：
+🔹 生成更具体的某家餐厅的预订话术？
+🔹 设计DIY贺卡的文字内容？
+🔹 提供七夕告白语句建议？
+🔹 或者帮您检查某个具体环节的可行性？
+
+请告诉我您的需求，我很乐意继续为您提供个性化的七夕策划支持！ 🌟
+]]></system-out>
+  </testcase>
+  <testcase name="doChatWithReport" classname="com.yupi.yuaiagent.app.LoveAppTest" time="5.44">
+    <system-out><![CDATA[2026-10-12T16:36:55.626+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Request: 你好，我是程序员鱼皮，我想让另一半（编程导航）更爱我，但我不知道该怎么做
+2026-10-12T16:37:01.020+08:00  INFO 31688 --- [yu-ai-agent1] [           main] c.y.yuaiagent.advisor.MyLoggerAdvisor    : AI Response: {
+  "title": "鱼皮的恋爱报告",
+  "suggestions": ["真诚表达你的欣赏与感激，比如具体指出编程导航在技术分享、社区建设或日常互动中让你心动的细节；", "主动创造共同成长体验，例如一起开发小工具、参与开源项目或学习新语言，让关系建立在并肩协作而非单向依赖上；", "尊重对方作为独立个体的边界与节奏，避免将‘被爱’等同于‘被改变’，先稳固自我价值感，再自然吸引深度联结；", "用程序员擅长的方式传递温度：写一段专属的‘爱的算法注释’，或设计一个只为你俩运行的迷你网页，把抽象情感转化为可感知的行动符号；", "定期进行非功利性对话——不聊bug、不谈PR、不查文档，只问‘今天什么让你笑了？’‘你最近在为什么悄悄努力？’"]
+}
+2026-10-12T16:37:01.026+08:00  INFO 31688 --- [yu-ai-agent1] [           main] com.yupi.yuaiagent.app.LoveApp           : loveReport: LoveReport[title=鱼皮的恋爱报告, suggestions=[真诚表达你的欣赏与感激，比如具体指出编程导航在技术分享、社区建设或日常互动中让你心动的细节；, 主动创造共同成长体验，例如一起开发小工具、参与开源项目或学习新语言，让关系建立在并肩协作而非单向依赖上；, 尊重对方作为独立个体的边界与节奏，避免将‘被爱’等同于‘被改变’，先稳固自我价值感，再自然吸引深度联结；, 用程序员擅长的方式传递温度：写一段专属的‘爱的算法注释’，或设计一个只为你俩运行的迷你网页，把抽象情感转化为可感知的行动符号；, 定期进行非功利性对话——不聊bug、不谈PR、不查文档，只问‘今天什么让你笑了？’‘你最近在为什么悄悄努力？’]]
+]]></system-out>
+  </testcase>
+</testsuite>
